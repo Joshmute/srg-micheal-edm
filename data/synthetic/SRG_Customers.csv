@@ -1,0 +1,7 @@
+customer_id,name,phone,email,district,dob,gender,updated_at
+DEMO1, Example Customer A ,0772000001,a@example.invalid,kampala,1990-01-02,F,2026-09-01
+DEMO1, Example Customer A ,0772000001,a@example.invalid,kampala,1990-01-02,F,2026-09-01
+DEMO2,Example Customer B,+256772000002,b@example.invalid,Jinja,03/04/1991,M,2026-09-02
+DEMO3,Example Customer C,not-a-phone,,Unknown,,unknown,
+DEMO4,Example Customer D,00256772000004,d@example.invalid,Gulu,1995/03/20,F,2026-01-01
+DEMO5,Example Customer E,+256772000002,e@example.invalid,Jinja,1992-02-01,M,2026-09-02

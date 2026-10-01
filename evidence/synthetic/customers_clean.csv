@@ -1,0 +1,6 @@
+customer_id,district,dob,email,gender,name,phone,updated_at
+DEMO1,Kampala,1990-01-02,a@example.invalid,female,Example Customer A,+256772000001,2026-09-01
+DEMO2,Jinja,,b@example.invalid,male,Example Customer B,+256772000002,2026-09-02
+DEMO3,,,,not_stated,Example Customer C,,
+DEMO4,Gulu,1995-03-20,d@example.invalid,female,Example Customer D,+256772000004,2026-01-01
+DEMO5,Jinja,1992-02-01,e@example.invalid,male,Example Customer E,+256772000002,2026-09-02

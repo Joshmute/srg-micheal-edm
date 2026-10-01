@@ -1,0 +1,27 @@
+domain,metric,before,after
+customers,rows,6,5
+customers,accuracy_pct,,
+customers,accuracy_note,Not measured: requires independently verified sample.,Not measured: requires independently verified sample.
+customers,timeliness_note,Freshness uses updated_at <=90 days; missing/invalid timestamps are unassessable.,Freshness uses updated_at <=90 days; missing/invalid timestamps are unassessable.
+customers,timeliness_assessable_rows,5,4
+customers,timeliness_pct,80.0,75.0
+customers,candidate_duplicate_excess_rows,1,0
+customers,candidate_duplicate_pct,16.67,0.0
+customers,uniqueness_pct,83.33,100.0
+customers,identity_assessable_rows,5,4
+customers,missing_contact_pct,0.0,20.0
+customers,completeness_pct,100.0,80.0
+customers,validity_pct,83.33,80.0
+customers,invalid_district_rows,1,1
+customers,consistency_pct,33.33,80.0
+products,rows,5,4
+products,accuracy_pct,,
+products,accuracy_note,Not measured: requires independently verified sample.,Not measured: requires independently verified sample.
+products,timeliness_note,Freshness uses updated_at <=90 days; missing/invalid timestamps are unassessable.,Freshness uses updated_at <=90 days; missing/invalid timestamps are unassessable.
+products,timeliness_assessable_rows,4,3
+products,timeliness_pct,100.0,100.0
+products,duplicate_sku_excess_rows,1,0
+products,uniqueness_pct,80.0,100.0
+products,completeness_pct,100.0,75.0
+products,consistency_pct,20.0,75.0
+products,validity_pct,20.0,75.0

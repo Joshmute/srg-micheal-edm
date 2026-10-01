@@ -1,0 +1,102 @@
+{
+  "customers": {
+    "before": {
+      "rows": 6,
+      "accuracy_pct": null,
+      "accuracy_note": "Not measured: requires independently verified sample.",
+      "timeliness_note": "Freshness uses updated_at <=90 days; missing/invalid timestamps are unassessable.",
+      "timeliness_assessable_rows": 5,
+      "timeliness_pct": 80.0,
+      "date_format_counts": {
+        "iso": 5,
+        "missing": 1
+      },
+      "candidate_duplicate_excess_rows": 1,
+      "candidate_duplicate_pct": 16.67,
+      "uniqueness_pct": 83.33,
+      "identity_assessable_rows": 5,
+      "missing_contact_pct": 0.0,
+      "completeness_pct": 100.0,
+      "phone_format_counts": {
+        "national": 2,
+        "international_plus": 2,
+        "other": 1,
+        "international_00": 1
+      },
+      "validity_pct": 83.33,
+      "invalid_district_rows": 1,
+      "consistency_pct": 33.33
+    },
+    "after": {
+      "rows": 5,
+      "accuracy_pct": null,
+      "accuracy_note": "Not measured: requires independently verified sample.",
+      "timeliness_note": "Freshness uses updated_at <=90 days; missing/invalid timestamps are unassessable.",
+      "timeliness_assessable_rows": 4,
+      "timeliness_pct": 75.0,
+      "date_format_counts": {
+        "iso": 4,
+        "missing": 1
+      },
+      "candidate_duplicate_excess_rows": 0,
+      "candidate_duplicate_pct": 0.0,
+      "uniqueness_pct": 100.0,
+      "identity_assessable_rows": 4,
+      "missing_contact_pct": 20.0,
+      "completeness_pct": 80.0,
+      "phone_format_counts": {
+        "international_plus": 4,
+        "missing": 1
+      },
+      "validity_pct": 80.0,
+      "invalid_district_rows": 1,
+      "consistency_pct": 80.0
+    }
+  },
+  "products": {
+    "before": {
+      "rows": 5,
+      "accuracy_pct": null,
+      "accuracy_note": "Not measured: requires independently verified sample.",
+      "timeliness_note": "Freshness uses updated_at <=90 days; missing/invalid timestamps are unassessable.",
+      "timeliness_assessable_rows": 4,
+      "timeliness_pct": 100.0,
+      "date_format_counts": {
+        "iso": 4,
+        "missing": 1
+      },
+      "duplicate_sku_excess_rows": 1,
+      "uniqueness_pct": 80.0,
+      "completeness_pct": 100.0,
+      "consistency_pct": 20.0,
+      "validity_pct": 20.0
+    },
+    "after": {
+      "rows": 4,
+      "accuracy_pct": null,
+      "accuracy_note": "Not measured: requires independently verified sample.",
+      "timeliness_note": "Freshness uses updated_at <=90 days; missing/invalid timestamps are unassessable.",
+      "timeliness_assessable_rows": 3,
+      "timeliness_pct": 100.0,
+      "date_format_counts": {
+        "iso": 3,
+        "missing": 1
+      },
+      "duplicate_sku_excess_rows": 0,
+      "uniqueness_pct": 100.0,
+      "completeness_pct": 75.0,
+      "consistency_pct": 75.0,
+      "validity_pct": 75.0
+    }
+  },
+  "provenance": {
+    "as_of": "2026-09-29",
+    "synthetic": true,
+    "sources": {
+      "SRG_Customers.csv": "a75f08adbe286a74c20bb162aa6bfa500f01597c519852d1c0ea8da01aab136c",
+      "SRG_Products.csv": "52e1d85c733879e30f5773dd5192341a7e67e1cd47f6a1f766289f0af4b5fe97",
+      "SRG_Sales.csv": "66437e57be1082dd98bbf116f6e1dd0a20db80b87f7bf985d583e8a8e4fb5290"
+    },
+    "notes": "Candidate duplicates are not verified duplicate persons. Accuracy needs ground truth. Rows with defects remain visible; quarantined sales are counted separately."
+  }
+}

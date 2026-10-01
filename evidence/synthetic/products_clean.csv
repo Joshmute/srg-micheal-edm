@@ -1,0 +1,5 @@
+category,name,sku,unit,updated_at
+Grocery,Rice,DEMO-RICE,kg,2026-09-01
+Grocery,Tea,DEMO-TEA,kg,2026-09-01
+Beverages,Soda,DEMO-SODA,l,2026-09-01
+Household,Soap,DEMO-SOAP,,

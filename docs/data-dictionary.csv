@@ -1,0 +1,31 @@
+element,type,meaning,source_and_transformation,owner,refresh,rule,classification
+core.customer.customer_id,varchar(64),Member source identity,Enrolment; trim and crosswalk,Customer service,E,Nonblank key,R
+core.customer.name,varchar(200),Declared name,Customer; trim only,Customer service,E,Evidence for changes,R
+core.customer.phone,varchar(16),Contact number,Customer; canonical format,Customer service,E,Valid if supplied,R
+core.customer.email,varchar(254),Optional email,Customer; normalise case,Customer service,E,Syntax if supplied,R
+core.customer.district,varchar(100),Member district,Customer; approved lookup,Customer service,E,Reference-list match,R
+core.customer.consent_marketing,boolean,Purpose-specific choice,Loyalty; withdrawal first,DPO,E,Evidence required,R
+core.product.product_id,varchar(64),Canonical product,Procurement; map source SKU,Procurement,E,Unique approved key,I
+core.product.unit,varchar(10),Comparable unit,Supplier; approved alias,Procurement,E,No guessed pack ratio,I
+core.supplier.supplier_id,varchar(64),Supplier identifier,Register; preserve key,Procurement,E,Unique key,C
+dim_date.date_key,date,Kampala business date,Order; source date parser,CFO,B,Plausible date,I
+dim_date.month_start,date,Calendar month,Date; first day,CFO,B,Derived consistently,I
+dim_customer.customer_key,bigint,Analytical member key,Registry; approved lookup,Customer service,B,Resolved or null,C
+dim_customer.customer_token,char(64),Pseudonymous identifier,Identity; HMAC in production,DPO,B,Secret-managed key,R
+dim_customer.segment,varchar(64),Assigned segment,CRM; approved label,Commercial manager,B,Known label,C
+dim_product.product_key,bigint,Historical product version,History; event-time lookup,Procurement,B,Version exists,I
+dim_product.category,varchar(100),Reporting category,Procurement; approved alias,Procurement,E,Reference match,I
+dim_product.valid_from,datetime(6),Inclusive version start,Approved change; timestamp,IT,E,Before end,I
+dim_product.valid_to,datetime(6),Exclusive version end,Change; close prior interval,IT,E,No overlap,I
+dim_store.store_key,bigint,Branch version key,Register; event-time lookup,Operations,B,Version exists,I
+dim_store.district,varchar(100),Branch district,Register; canonical label,Operations,E,Reference match,I
+fact_sales.source,varchar(32),Origin system,Manifest; retain code,IT,B,Approved contract,C
+fact_sales.source_order_id,varchar(64),Order reference,Order; retain reference,Finance,B,Unique with source/line,C
+fact_sales.line_no,int,Line identifier,Order; positive integer,Finance,B,Unique within order,C
+fact_sales.quantity,"decimal(14,3)",Signed retail units,Line; preserve returns,Finance,B,Declared sign convention,C
+core.order_line.unit_price,"decimal(18,2)",Agreed unit price,Line; parse money notation,Finance,B,Nonnegative,C
+fact_sales.currency,char(3),Denomination,Order; uppercase ISO code,Finance,B,UGX/KES/RWF separate,C
+fact_sales.net_amount,"decimal(18,2)",Signed line value,Quantity × price; Decimal,Finance,B,Reconcile totals,C
+stage_sales.payment_ref_present,boolean,Reference indicator,Payment; nonblank test,Finance,B,Cash null permitted,C
+fact_inventory_snapshot.on_hand,"decimal(14,3)",Snapshot stock balance,Odoo; align unit/time,Operations,B,Movement reconciliation,C
+MAC,integer KPI,Monthly purchasing members,Facts; distinct key qty>0,Commercial manager,M,Exclude anonymous,C

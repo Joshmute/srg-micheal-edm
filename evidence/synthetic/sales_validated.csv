@@ -1,0 +1,5 @@
+source,order_id,line_no,order_date,customer_id,sku,store_id,quantity,unit_price,currency,net_amount,payment_ref_present
+pos,DEMO-O1,1,2026-09-01,DEMO1,DEMO-RICE,DEMO-JINJA,2,1000,UGX,2000,1
+pos,DEMO-R1,1,2026-09-02,DEMO1,DEMO-RICE,DEMO-JINJA,-1,1000,UGX,-1000,0
+ecommerce,DEMO-O2,1,2026-09-03,DEMO2,DEMO-TEA,DEMO-WEB,1,3000,UGX,3000,1
+loyalty_app,DEMO-O3,1,2026-09-04,,DEMO-SODA,DEMO-GULU,3,2500,UGX,7500,0

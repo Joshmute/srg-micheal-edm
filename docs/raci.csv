@@ -1,0 +1,13 @@
+Activity,A,R,C,I
+Approve priorities,COO,Council,"CFO, IT",Board
+Define net sales,CFO,Finance analyst,Store managers,COO
+Approve product units,Procurement manager,Product steward,"Suppliers, IT",Stores
+Correct customer links,Customer-service manager,Customer steward,DPO,IT
+Operate extracts,IT manager,SQL staff,Stores,CFO
+Certify monthly close,CFO,Finance analyst,IT,Board
+Review access,Domain owner,IT,DPO,COO
+Report privacy breach,DPO,Incident lead,"IT, counsel",CEO
+Fulfil rights requests,DPO,Customer service,IT,COO
+Apply retention,Domain owner,IT,DPO,Council
+Test recovery,IT manager,SQL staff,CFO,COO
+Approve supplier sharing,Procurement manager,Procurement staff,DPO,Council

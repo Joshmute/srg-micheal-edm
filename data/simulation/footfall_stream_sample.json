@@ -1,0 +1,6554 @@
+[
+  {
+    "event_id": "KMB-F00000",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T08:00:00Z",
+    "count_delta": 1,
+    "sequence": 0,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00001",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T08:01:00Z",
+    "count_delta": 1,
+    "sequence": 1,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00002",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T08:02:00Z",
+    "count_delta": 1,
+    "sequence": 2,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00003",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T08:03:00Z",
+    "count_delta": 1,
+    "sequence": 3,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00004",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T08:04:00Z",
+    "count_delta": 1,
+    "sequence": 4,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00005",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T08:05:00Z",
+    "count_delta": 1,
+    "sequence": 5,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00006",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T08:06:00Z",
+    "count_delta": 1,
+    "sequence": 6,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00007",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T08:07:00Z",
+    "count_delta": 1,
+    "sequence": 7,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00008",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T08:08:00Z",
+    "count_delta": 1,
+    "sequence": 8,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00009",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T08:09:00Z",
+    "count_delta": 1,
+    "sequence": 9,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00010",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T08:10:00Z",
+    "count_delta": 1,
+    "sequence": 10,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00011",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T08:11:00Z",
+    "count_delta": 1,
+    "sequence": 11,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00012",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T08:12:00Z",
+    "count_delta": 1,
+    "sequence": 12,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00013",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T08:13:00Z",
+    "count_delta": 1,
+    "sequence": 13,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00014",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T08:14:00Z",
+    "count_delta": 1,
+    "sequence": 14,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00015",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T08:15:00Z",
+    "count_delta": 1,
+    "sequence": 15,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00016",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T08:16:00Z",
+    "count_delta": 1,
+    "sequence": 16,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00017",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T08:17:00Z",
+    "count_delta": 1,
+    "sequence": 17,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00018",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T08:18:00Z",
+    "count_delta": 1,
+    "sequence": 18,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00019",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T08:19:00Z",
+    "count_delta": 1,
+    "sequence": 19,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00020",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T08:20:00Z",
+    "count_delta": 1,
+    "sequence": 20,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00021",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T08:21:00Z",
+    "count_delta": 1,
+    "sequence": 21,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00022",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T08:22:00Z",
+    "count_delta": 1,
+    "sequence": 22,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00023",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T08:23:00Z",
+    "count_delta": 1,
+    "sequence": 23,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00024",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T08:24:00Z",
+    "count_delta": 1,
+    "sequence": 24,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00025",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T08:25:00Z",
+    "count_delta": 1,
+    "sequence": 25,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00026",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T08:26:00Z",
+    "count_delta": 1,
+    "sequence": 26,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00027",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T08:27:00Z",
+    "count_delta": 1,
+    "sequence": 27,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00028",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T08:28:00Z",
+    "count_delta": 1,
+    "sequence": 28,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00029",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T08:29:00Z",
+    "count_delta": 1,
+    "sequence": 29,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00030",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T08:30:00Z",
+    "count_delta": 1,
+    "sequence": 30,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00031",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T08:31:00Z",
+    "count_delta": 1,
+    "sequence": 31,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00032",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T08:32:00Z",
+    "count_delta": 1,
+    "sequence": 32,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00033",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T08:33:00Z",
+    "count_delta": 1,
+    "sequence": 33,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00034",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T08:34:00Z",
+    "count_delta": 1,
+    "sequence": 34,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00035",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T08:35:00Z",
+    "count_delta": 1,
+    "sequence": 35,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00036",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T08:36:00Z",
+    "count_delta": 1,
+    "sequence": 36,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00037",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T08:37:00Z",
+    "count_delta": 1,
+    "sequence": 37,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00038",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T08:38:00Z",
+    "count_delta": 1,
+    "sequence": 38,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00039",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T08:39:00Z",
+    "count_delta": 1,
+    "sequence": 39,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00040",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T08:40:00Z",
+    "count_delta": 1,
+    "sequence": 40,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00041",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T08:41:00Z",
+    "count_delta": 1,
+    "sequence": 41,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00042",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T08:42:00Z",
+    "count_delta": 1,
+    "sequence": 42,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00043",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T08:43:00Z",
+    "count_delta": 1,
+    "sequence": 43,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00044",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T08:44:00Z",
+    "count_delta": 1,
+    "sequence": 44,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00045",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T08:45:00Z",
+    "count_delta": 1,
+    "sequence": 45,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00046",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T08:46:00Z",
+    "count_delta": 1,
+    "sequence": 46,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00047",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T08:47:00Z",
+    "count_delta": 1,
+    "sequence": 47,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00048",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T08:48:00Z",
+    "count_delta": 1,
+    "sequence": 48,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00049",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T08:49:00Z",
+    "count_delta": 1,
+    "sequence": 49,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00050",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T08:50:00Z",
+    "count_delta": 1,
+    "sequence": 50,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00051",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T08:51:00Z",
+    "count_delta": 1,
+    "sequence": 51,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00052",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T08:52:00Z",
+    "count_delta": 1,
+    "sequence": 52,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00053",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T08:53:00Z",
+    "count_delta": 1,
+    "sequence": 53,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00054",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T08:54:00Z",
+    "count_delta": 1,
+    "sequence": 54,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00055",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T08:55:00Z",
+    "count_delta": 1,
+    "sequence": 55,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00056",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T08:56:00Z",
+    "count_delta": 1,
+    "sequence": 56,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00057",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T08:57:00Z",
+    "count_delta": 1,
+    "sequence": 57,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00058",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T08:58:00Z",
+    "count_delta": 1,
+    "sequence": 58,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00059",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T08:59:00Z",
+    "count_delta": 1,
+    "sequence": 59,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00060",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T09:00:00Z",
+    "count_delta": 1,
+    "sequence": 60,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00061",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T09:01:00Z",
+    "count_delta": 1,
+    "sequence": 61,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00062",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T09:02:00Z",
+    "count_delta": 1,
+    "sequence": 62,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00063",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T09:03:00Z",
+    "count_delta": 1,
+    "sequence": 63,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00064",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T09:04:00Z",
+    "count_delta": 1,
+    "sequence": 64,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00065",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T09:05:00Z",
+    "count_delta": 1,
+    "sequence": 65,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00066",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T09:06:00Z",
+    "count_delta": 1,
+    "sequence": 66,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00067",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T09:07:00Z",
+    "count_delta": 1,
+    "sequence": 67,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00068",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T09:08:00Z",
+    "count_delta": 1,
+    "sequence": 68,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00069",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T09:09:00Z",
+    "count_delta": 1,
+    "sequence": 69,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00070",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T09:10:00Z",
+    "count_delta": 1,
+    "sequence": 70,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00071",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T09:11:00Z",
+    "count_delta": 1,
+    "sequence": 71,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00072",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T09:12:00Z",
+    "count_delta": 1,
+    "sequence": 72,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00073",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T09:13:00Z",
+    "count_delta": 1,
+    "sequence": 73,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00074",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T09:14:00Z",
+    "count_delta": 1,
+    "sequence": 74,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00075",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T09:15:00Z",
+    "count_delta": 1,
+    "sequence": 75,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00076",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T09:16:00Z",
+    "count_delta": 1,
+    "sequence": 76,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00077",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T09:17:00Z",
+    "count_delta": 1,
+    "sequence": 77,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00078",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T09:18:00Z",
+    "count_delta": 1,
+    "sequence": 78,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00079",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T09:19:00Z",
+    "count_delta": 1,
+    "sequence": 79,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00080",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T09:20:00Z",
+    "count_delta": 1,
+    "sequence": 80,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00081",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T09:21:00Z",
+    "count_delta": 1,
+    "sequence": 81,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00082",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T09:22:00Z",
+    "count_delta": 1,
+    "sequence": 82,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00083",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T09:23:00Z",
+    "count_delta": 1,
+    "sequence": 83,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00084",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T09:24:00Z",
+    "count_delta": 1,
+    "sequence": 84,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00085",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T09:25:00Z",
+    "count_delta": 1,
+    "sequence": 85,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00086",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T09:26:00Z",
+    "count_delta": 1,
+    "sequence": 86,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00087",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T09:27:00Z",
+    "count_delta": 1,
+    "sequence": 87,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00088",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T09:28:00Z",
+    "count_delta": 1,
+    "sequence": 88,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00089",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T09:29:00Z",
+    "count_delta": 1,
+    "sequence": 89,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00090",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T09:30:00Z",
+    "count_delta": 1,
+    "sequence": 90,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00091",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T09:31:00Z",
+    "count_delta": 1,
+    "sequence": 91,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00092",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T09:32:00Z",
+    "count_delta": 1,
+    "sequence": 92,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00093",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T09:33:00Z",
+    "count_delta": 1,
+    "sequence": 93,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00094",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T09:34:00Z",
+    "count_delta": 1,
+    "sequence": 94,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00095",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T09:35:00Z",
+    "count_delta": 1,
+    "sequence": 95,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00096",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T09:36:00Z",
+    "count_delta": 1,
+    "sequence": 96,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00097",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T09:37:00Z",
+    "count_delta": 1,
+    "sequence": 97,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00098",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T09:38:00Z",
+    "count_delta": 1,
+    "sequence": 98,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00099",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T09:39:00Z",
+    "count_delta": 1,
+    "sequence": 99,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00100",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T09:40:00Z",
+    "count_delta": 1,
+    "sequence": 100,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00101",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T09:41:00Z",
+    "count_delta": 1,
+    "sequence": 101,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00102",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T09:42:00Z",
+    "count_delta": 1,
+    "sequence": 102,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00103",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T09:43:00Z",
+    "count_delta": 1,
+    "sequence": 103,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00104",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T09:44:00Z",
+    "count_delta": 1,
+    "sequence": 104,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00105",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T09:45:00Z",
+    "count_delta": 1,
+    "sequence": 105,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00106",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T09:46:00Z",
+    "count_delta": 1,
+    "sequence": 106,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00107",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T09:47:00Z",
+    "count_delta": 1,
+    "sequence": 107,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00108",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T09:48:00Z",
+    "count_delta": 1,
+    "sequence": 108,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00109",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T09:49:00Z",
+    "count_delta": 1,
+    "sequence": 109,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00110",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T09:50:00Z",
+    "count_delta": 1,
+    "sequence": 110,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00111",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T09:51:00Z",
+    "count_delta": 1,
+    "sequence": 111,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00112",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T09:52:00Z",
+    "count_delta": 1,
+    "sequence": 112,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00113",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T09:53:00Z",
+    "count_delta": 1,
+    "sequence": 113,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00114",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T09:54:00Z",
+    "count_delta": 1,
+    "sequence": 114,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00115",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T09:55:00Z",
+    "count_delta": 1,
+    "sequence": 115,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00116",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T09:56:00Z",
+    "count_delta": 1,
+    "sequence": 116,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00117",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T09:57:00Z",
+    "count_delta": 1,
+    "sequence": 117,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00118",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T09:58:00Z",
+    "count_delta": 1,
+    "sequence": 118,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00119",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T09:59:00Z",
+    "count_delta": 1,
+    "sequence": 119,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00120",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T10:00:00Z",
+    "count_delta": 1,
+    "sequence": 120,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00121",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T10:01:00Z",
+    "count_delta": 1,
+    "sequence": 121,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00122",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T10:02:00Z",
+    "count_delta": 1,
+    "sequence": 122,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00123",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T10:03:00Z",
+    "count_delta": 1,
+    "sequence": 123,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00124",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T10:04:00Z",
+    "count_delta": 1,
+    "sequence": 124,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00125",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T10:05:00Z",
+    "count_delta": 1,
+    "sequence": 125,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00126",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T10:06:00Z",
+    "count_delta": 1,
+    "sequence": 126,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00127",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T10:07:00Z",
+    "count_delta": 1,
+    "sequence": 127,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00128",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T10:08:00Z",
+    "count_delta": 1,
+    "sequence": 128,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00129",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T10:09:00Z",
+    "count_delta": 1,
+    "sequence": 129,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00130",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T10:10:00Z",
+    "count_delta": 1,
+    "sequence": 130,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00131",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T10:11:00Z",
+    "count_delta": 1,
+    "sequence": 131,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00132",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T10:12:00Z",
+    "count_delta": 1,
+    "sequence": 132,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00133",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T10:13:00Z",
+    "count_delta": 1,
+    "sequence": 133,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00134",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T10:14:00Z",
+    "count_delta": 1,
+    "sequence": 134,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00135",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T10:15:00Z",
+    "count_delta": 1,
+    "sequence": 135,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00136",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T10:16:00Z",
+    "count_delta": 1,
+    "sequence": 136,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00137",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T10:17:00Z",
+    "count_delta": 1,
+    "sequence": 137,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00138",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T10:18:00Z",
+    "count_delta": 1,
+    "sequence": 138,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00139",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T10:19:00Z",
+    "count_delta": 1,
+    "sequence": 139,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00140",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T10:20:00Z",
+    "count_delta": 1,
+    "sequence": 140,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00141",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T10:21:00Z",
+    "count_delta": 1,
+    "sequence": 141,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00142",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T10:22:00Z",
+    "count_delta": 1,
+    "sequence": 142,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00143",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T10:23:00Z",
+    "count_delta": 1,
+    "sequence": 143,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00144",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T10:24:00Z",
+    "count_delta": 1,
+    "sequence": 144,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00145",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T10:25:00Z",
+    "count_delta": 1,
+    "sequence": 145,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00146",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T10:26:00Z",
+    "count_delta": 1,
+    "sequence": 146,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00147",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T10:27:00Z",
+    "count_delta": 1,
+    "sequence": 147,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00148",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T10:28:00Z",
+    "count_delta": 1,
+    "sequence": 148,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00149",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T10:29:00Z",
+    "count_delta": 1,
+    "sequence": 149,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00150",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T10:30:00Z",
+    "count_delta": 1,
+    "sequence": 150,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00151",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T10:31:00Z",
+    "count_delta": 1,
+    "sequence": 151,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00152",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T10:32:00Z",
+    "count_delta": 1,
+    "sequence": 152,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00153",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T10:33:00Z",
+    "count_delta": 1,
+    "sequence": 153,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00154",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T10:34:00Z",
+    "count_delta": 1,
+    "sequence": 154,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00155",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T10:35:00Z",
+    "count_delta": 1,
+    "sequence": 155,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00156",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T10:36:00Z",
+    "count_delta": 1,
+    "sequence": 156,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00157",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T10:37:00Z",
+    "count_delta": 1,
+    "sequence": 157,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00158",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T10:38:00Z",
+    "count_delta": 1,
+    "sequence": 158,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00159",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T10:39:00Z",
+    "count_delta": 1,
+    "sequence": 159,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00160",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T10:40:00Z",
+    "count_delta": 1,
+    "sequence": 160,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00161",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T10:41:00Z",
+    "count_delta": 1,
+    "sequence": 161,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00162",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T10:42:00Z",
+    "count_delta": 1,
+    "sequence": 162,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00163",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T10:43:00Z",
+    "count_delta": 1,
+    "sequence": 163,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00164",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T10:44:00Z",
+    "count_delta": 1,
+    "sequence": 164,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00165",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T10:45:00Z",
+    "count_delta": 1,
+    "sequence": 165,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00166",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T10:46:00Z",
+    "count_delta": 1,
+    "sequence": 166,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00167",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T10:47:00Z",
+    "count_delta": 1,
+    "sequence": 167,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00168",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T10:48:00Z",
+    "count_delta": 1,
+    "sequence": 168,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00169",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T10:49:00Z",
+    "count_delta": 1,
+    "sequence": 169,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00170",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T10:50:00Z",
+    "count_delta": 1,
+    "sequence": 170,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00171",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T10:51:00Z",
+    "count_delta": 1,
+    "sequence": 171,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00172",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T10:52:00Z",
+    "count_delta": 1,
+    "sequence": 172,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00173",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T10:53:00Z",
+    "count_delta": 1,
+    "sequence": 173,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00174",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T10:54:00Z",
+    "count_delta": 1,
+    "sequence": 174,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00175",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T10:55:00Z",
+    "count_delta": 1,
+    "sequence": 175,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00176",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T10:56:00Z",
+    "count_delta": 1,
+    "sequence": 176,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00177",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T10:57:00Z",
+    "count_delta": 1,
+    "sequence": 177,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00178",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T10:58:00Z",
+    "count_delta": 1,
+    "sequence": 178,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00179",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T10:59:00Z",
+    "count_delta": 1,
+    "sequence": 179,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00180",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T11:00:00Z",
+    "count_delta": 1,
+    "sequence": 180,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00181",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T11:01:00Z",
+    "count_delta": 1,
+    "sequence": 181,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00182",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T11:02:00Z",
+    "count_delta": 1,
+    "sequence": 182,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00183",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T11:03:00Z",
+    "count_delta": 1,
+    "sequence": 183,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00184",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T11:04:00Z",
+    "count_delta": 1,
+    "sequence": 184,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00185",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T11:05:00Z",
+    "count_delta": 1,
+    "sequence": 185,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00186",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T11:06:00Z",
+    "count_delta": 1,
+    "sequence": 186,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00187",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T11:07:00Z",
+    "count_delta": 1,
+    "sequence": 187,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00188",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T11:08:00Z",
+    "count_delta": 1,
+    "sequence": 188,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00189",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T11:09:00Z",
+    "count_delta": 1,
+    "sequence": 189,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00190",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T11:10:00Z",
+    "count_delta": 1,
+    "sequence": 190,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00191",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T11:11:00Z",
+    "count_delta": 1,
+    "sequence": 191,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00192",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T11:12:00Z",
+    "count_delta": 1,
+    "sequence": 192,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00193",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T11:13:00Z",
+    "count_delta": 1,
+    "sequence": 193,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00194",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T11:14:00Z",
+    "count_delta": 1,
+    "sequence": 194,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00195",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T11:15:00Z",
+    "count_delta": 1,
+    "sequence": 195,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00196",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T11:16:00Z",
+    "count_delta": 1,
+    "sequence": 196,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00197",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T11:17:00Z",
+    "count_delta": 1,
+    "sequence": 197,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00198",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T11:18:00Z",
+    "count_delta": 1,
+    "sequence": 198,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00199",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T11:19:00Z",
+    "count_delta": 1,
+    "sequence": 199,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00200",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T11:20:00Z",
+    "count_delta": 1,
+    "sequence": 200,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00201",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T11:21:00Z",
+    "count_delta": 1,
+    "sequence": 201,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00202",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T11:22:00Z",
+    "count_delta": 1,
+    "sequence": 202,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00203",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T11:23:00Z",
+    "count_delta": 1,
+    "sequence": 203,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00204",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T11:24:00Z",
+    "count_delta": 1,
+    "sequence": 204,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00205",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T11:25:00Z",
+    "count_delta": 1,
+    "sequence": 205,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00206",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T11:26:00Z",
+    "count_delta": 1,
+    "sequence": 206,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00207",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T11:27:00Z",
+    "count_delta": 1,
+    "sequence": 207,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00208",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T11:28:00Z",
+    "count_delta": 1,
+    "sequence": 208,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00209",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T11:29:00Z",
+    "count_delta": 1,
+    "sequence": 209,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00210",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T11:30:00Z",
+    "count_delta": 1,
+    "sequence": 210,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00211",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T11:31:00Z",
+    "count_delta": 1,
+    "sequence": 211,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00212",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T11:32:00Z",
+    "count_delta": 1,
+    "sequence": 212,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00213",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T11:33:00Z",
+    "count_delta": 1,
+    "sequence": 213,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00214",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T11:34:00Z",
+    "count_delta": 1,
+    "sequence": 214,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00215",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T11:35:00Z",
+    "count_delta": 1,
+    "sequence": 215,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00216",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T11:36:00Z",
+    "count_delta": 1,
+    "sequence": 216,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00217",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T11:37:00Z",
+    "count_delta": 1,
+    "sequence": 217,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00218",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T11:38:00Z",
+    "count_delta": 1,
+    "sequence": 218,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00219",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T11:39:00Z",
+    "count_delta": 1,
+    "sequence": 219,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00220",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T11:40:00Z",
+    "count_delta": 1,
+    "sequence": 220,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00221",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T11:41:00Z",
+    "count_delta": 1,
+    "sequence": 221,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00222",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T11:42:00Z",
+    "count_delta": 1,
+    "sequence": 222,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00223",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T11:43:00Z",
+    "count_delta": 1,
+    "sequence": 223,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00224",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T11:44:00Z",
+    "count_delta": 1,
+    "sequence": 224,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00225",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T11:45:00Z",
+    "count_delta": 1,
+    "sequence": 225,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00226",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T11:46:00Z",
+    "count_delta": 1,
+    "sequence": 226,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00227",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T11:47:00Z",
+    "count_delta": 1,
+    "sequence": 227,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00228",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T11:48:00Z",
+    "count_delta": 1,
+    "sequence": 228,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00229",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T11:49:00Z",
+    "count_delta": 1,
+    "sequence": 229,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00230",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T11:50:00Z",
+    "count_delta": 1,
+    "sequence": 230,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00231",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T11:51:00Z",
+    "count_delta": 1,
+    "sequence": 231,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00232",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T11:52:00Z",
+    "count_delta": 1,
+    "sequence": 232,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00233",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T11:53:00Z",
+    "count_delta": 1,
+    "sequence": 233,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00234",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T11:54:00Z",
+    "count_delta": 1,
+    "sequence": 234,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00235",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T11:55:00Z",
+    "count_delta": 1,
+    "sequence": 235,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00236",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T11:56:00Z",
+    "count_delta": 1,
+    "sequence": 236,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00237",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T11:57:00Z",
+    "count_delta": 1,
+    "sequence": 237,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00238",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T11:58:00Z",
+    "count_delta": 1,
+    "sequence": 238,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00239",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T11:59:00Z",
+    "count_delta": 1,
+    "sequence": 239,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00240",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T12:00:00Z",
+    "count_delta": 1,
+    "sequence": 240,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00241",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T12:01:00Z",
+    "count_delta": 1,
+    "sequence": 241,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00242",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T12:02:00Z",
+    "count_delta": 1,
+    "sequence": 242,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00243",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T12:03:00Z",
+    "count_delta": 1,
+    "sequence": 243,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00244",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T12:04:00Z",
+    "count_delta": 1,
+    "sequence": 244,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00245",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T12:05:00Z",
+    "count_delta": 1,
+    "sequence": 245,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00246",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T12:06:00Z",
+    "count_delta": 1,
+    "sequence": 246,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00247",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T12:07:00Z",
+    "count_delta": 1,
+    "sequence": 247,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00248",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T12:08:00Z",
+    "count_delta": 1,
+    "sequence": 248,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00249",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T12:09:00Z",
+    "count_delta": 1,
+    "sequence": 249,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00250",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T12:10:00Z",
+    "count_delta": 1,
+    "sequence": 250,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00251",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T12:11:00Z",
+    "count_delta": 1,
+    "sequence": 251,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00252",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T12:12:00Z",
+    "count_delta": 1,
+    "sequence": 252,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00253",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T12:13:00Z",
+    "count_delta": 1,
+    "sequence": 253,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00254",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T12:14:00Z",
+    "count_delta": 1,
+    "sequence": 254,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00255",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T12:15:00Z",
+    "count_delta": 1,
+    "sequence": 255,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00256",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T12:16:00Z",
+    "count_delta": 1,
+    "sequence": 256,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00257",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T12:17:00Z",
+    "count_delta": 1,
+    "sequence": 257,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00258",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T12:18:00Z",
+    "count_delta": 1,
+    "sequence": 258,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00259",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T12:19:00Z",
+    "count_delta": 1,
+    "sequence": 259,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00260",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T12:20:00Z",
+    "count_delta": 1,
+    "sequence": 260,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00261",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T12:21:00Z",
+    "count_delta": 1,
+    "sequence": 261,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00262",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T12:22:00Z",
+    "count_delta": 1,
+    "sequence": 262,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00263",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T12:23:00Z",
+    "count_delta": 1,
+    "sequence": 263,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00264",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T12:24:00Z",
+    "count_delta": 1,
+    "sequence": 264,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00265",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T12:25:00Z",
+    "count_delta": 1,
+    "sequence": 265,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00266",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T12:26:00Z",
+    "count_delta": 1,
+    "sequence": 266,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00267",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T12:27:00Z",
+    "count_delta": 1,
+    "sequence": 267,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00268",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T12:28:00Z",
+    "count_delta": 1,
+    "sequence": 268,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00269",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T12:29:00Z",
+    "count_delta": 1,
+    "sequence": 269,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00270",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T12:30:00Z",
+    "count_delta": 1,
+    "sequence": 270,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00271",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T12:31:00Z",
+    "count_delta": 1,
+    "sequence": 271,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00272",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T12:32:00Z",
+    "count_delta": 1,
+    "sequence": 272,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00273",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T12:33:00Z",
+    "count_delta": 1,
+    "sequence": 273,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00274",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T12:34:00Z",
+    "count_delta": 1,
+    "sequence": 274,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00275",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T12:35:00Z",
+    "count_delta": 1,
+    "sequence": 275,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00276",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T12:36:00Z",
+    "count_delta": 1,
+    "sequence": 276,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00277",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T12:37:00Z",
+    "count_delta": 1,
+    "sequence": 277,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00278",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T12:38:00Z",
+    "count_delta": 1,
+    "sequence": 278,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00279",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T12:39:00Z",
+    "count_delta": 1,
+    "sequence": 279,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00280",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T12:40:00Z",
+    "count_delta": 1,
+    "sequence": 280,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00281",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T12:41:00Z",
+    "count_delta": 1,
+    "sequence": 281,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00282",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T12:42:00Z",
+    "count_delta": 1,
+    "sequence": 282,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00283",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T12:43:00Z",
+    "count_delta": 1,
+    "sequence": 283,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00284",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T12:44:00Z",
+    "count_delta": 1,
+    "sequence": 284,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00285",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T12:45:00Z",
+    "count_delta": 1,
+    "sequence": 285,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00286",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T12:46:00Z",
+    "count_delta": 1,
+    "sequence": 286,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00287",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T12:47:00Z",
+    "count_delta": 1,
+    "sequence": 287,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00288",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T12:48:00Z",
+    "count_delta": 1,
+    "sequence": 288,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00289",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T12:49:00Z",
+    "count_delta": 1,
+    "sequence": 289,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00290",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T12:50:00Z",
+    "count_delta": 1,
+    "sequence": 290,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00291",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T12:51:00Z",
+    "count_delta": 1,
+    "sequence": 291,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00292",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T12:52:00Z",
+    "count_delta": 1,
+    "sequence": 292,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00293",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T12:53:00Z",
+    "count_delta": 1,
+    "sequence": 293,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00294",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T12:54:00Z",
+    "count_delta": 1,
+    "sequence": 294,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00295",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T12:55:00Z",
+    "count_delta": 1,
+    "sequence": 295,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00296",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T12:56:00Z",
+    "count_delta": 1,
+    "sequence": 296,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00297",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T12:57:00Z",
+    "count_delta": 1,
+    "sequence": 297,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00298",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T12:58:00Z",
+    "count_delta": 1,
+    "sequence": 298,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00299",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T12:59:00Z",
+    "count_delta": 1,
+    "sequence": 299,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00300",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T13:00:00Z",
+    "count_delta": 1,
+    "sequence": 300,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00301",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T13:01:00Z",
+    "count_delta": 1,
+    "sequence": 301,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00302",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T13:02:00Z",
+    "count_delta": 1,
+    "sequence": 302,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00303",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T13:03:00Z",
+    "count_delta": 1,
+    "sequence": 303,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00304",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T13:04:00Z",
+    "count_delta": 1,
+    "sequence": 304,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00305",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T13:05:00Z",
+    "count_delta": 1,
+    "sequence": 305,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00306",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T13:06:00Z",
+    "count_delta": 1,
+    "sequence": 306,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00307",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T13:07:00Z",
+    "count_delta": 1,
+    "sequence": 307,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00308",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T13:08:00Z",
+    "count_delta": 1,
+    "sequence": 308,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00309",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T13:09:00Z",
+    "count_delta": 1,
+    "sequence": 309,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00310",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T13:10:00Z",
+    "count_delta": 1,
+    "sequence": 310,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00311",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T13:11:00Z",
+    "count_delta": 1,
+    "sequence": 311,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00312",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T13:12:00Z",
+    "count_delta": 1,
+    "sequence": 312,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00313",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T13:13:00Z",
+    "count_delta": 1,
+    "sequence": 313,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00314",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T13:14:00Z",
+    "count_delta": 1,
+    "sequence": 314,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00315",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T13:15:00Z",
+    "count_delta": 1,
+    "sequence": 315,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00316",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T13:16:00Z",
+    "count_delta": 1,
+    "sequence": 316,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00317",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T13:17:00Z",
+    "count_delta": 1,
+    "sequence": 317,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00318",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T13:18:00Z",
+    "count_delta": 1,
+    "sequence": 318,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00319",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T13:19:00Z",
+    "count_delta": 1,
+    "sequence": 319,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00320",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T13:20:00Z",
+    "count_delta": 1,
+    "sequence": 320,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00321",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T13:21:00Z",
+    "count_delta": 1,
+    "sequence": 321,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00322",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T13:22:00Z",
+    "count_delta": 1,
+    "sequence": 322,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00323",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T13:23:00Z",
+    "count_delta": 1,
+    "sequence": 323,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00324",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T13:24:00Z",
+    "count_delta": 1,
+    "sequence": 324,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00325",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T13:25:00Z",
+    "count_delta": 1,
+    "sequence": 325,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00326",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T13:26:00Z",
+    "count_delta": 1,
+    "sequence": 326,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00327",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T13:27:00Z",
+    "count_delta": 1,
+    "sequence": 327,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00328",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T13:28:00Z",
+    "count_delta": 1,
+    "sequence": 328,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00329",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T13:29:00Z",
+    "count_delta": 1,
+    "sequence": 329,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00330",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T13:30:00Z",
+    "count_delta": 1,
+    "sequence": 330,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00331",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T13:31:00Z",
+    "count_delta": 1,
+    "sequence": 331,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00332",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T13:32:00Z",
+    "count_delta": 1,
+    "sequence": 332,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00333",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T13:33:00Z",
+    "count_delta": 1,
+    "sequence": 333,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00334",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T13:34:00Z",
+    "count_delta": 1,
+    "sequence": 334,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00335",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T13:35:00Z",
+    "count_delta": 1,
+    "sequence": 335,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00336",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T13:36:00Z",
+    "count_delta": 1,
+    "sequence": 336,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00337",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T13:37:00Z",
+    "count_delta": 1,
+    "sequence": 337,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00338",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T13:38:00Z",
+    "count_delta": 1,
+    "sequence": 338,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00339",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T13:39:00Z",
+    "count_delta": 1,
+    "sequence": 339,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00340",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T13:40:00Z",
+    "count_delta": 1,
+    "sequence": 340,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00341",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T13:41:00Z",
+    "count_delta": 1,
+    "sequence": 341,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00342",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T13:42:00Z",
+    "count_delta": 1,
+    "sequence": 342,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00343",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T13:43:00Z",
+    "count_delta": 1,
+    "sequence": 343,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00344",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T13:44:00Z",
+    "count_delta": 1,
+    "sequence": 344,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00345",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T13:45:00Z",
+    "count_delta": 1,
+    "sequence": 345,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00346",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T13:46:00Z",
+    "count_delta": 1,
+    "sequence": 346,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00347",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T13:47:00Z",
+    "count_delta": 1,
+    "sequence": 347,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00348",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T13:48:00Z",
+    "count_delta": 1,
+    "sequence": 348,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00349",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T13:49:00Z",
+    "count_delta": 1,
+    "sequence": 349,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00350",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T13:50:00Z",
+    "count_delta": 1,
+    "sequence": 350,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00351",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T13:51:00Z",
+    "count_delta": 1,
+    "sequence": 351,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00352",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T13:52:00Z",
+    "count_delta": 1,
+    "sequence": 352,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00353",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T13:53:00Z",
+    "count_delta": 1,
+    "sequence": 353,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00354",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T13:54:00Z",
+    "count_delta": 1,
+    "sequence": 354,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00355",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T13:55:00Z",
+    "count_delta": 1,
+    "sequence": 355,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00356",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T13:56:00Z",
+    "count_delta": 1,
+    "sequence": 356,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00357",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T13:57:00Z",
+    "count_delta": 1,
+    "sequence": 357,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00358",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T13:58:00Z",
+    "count_delta": 1,
+    "sequence": 358,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00359",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T13:59:00Z",
+    "count_delta": 1,
+    "sequence": 359,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00360",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T14:00:00Z",
+    "count_delta": 1,
+    "sequence": 360,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00361",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T14:01:00Z",
+    "count_delta": 1,
+    "sequence": 361,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00362",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T14:02:00Z",
+    "count_delta": 1,
+    "sequence": 362,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00363",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T14:03:00Z",
+    "count_delta": 1,
+    "sequence": 363,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00364",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T14:04:00Z",
+    "count_delta": 1,
+    "sequence": 364,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00365",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T14:05:00Z",
+    "count_delta": 1,
+    "sequence": 365,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00366",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T14:06:00Z",
+    "count_delta": 1,
+    "sequence": 366,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00367",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T14:07:00Z",
+    "count_delta": 1,
+    "sequence": 367,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00368",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T14:08:00Z",
+    "count_delta": 1,
+    "sequence": 368,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00369",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T14:09:00Z",
+    "count_delta": 1,
+    "sequence": 369,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00370",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T14:10:00Z",
+    "count_delta": 1,
+    "sequence": 370,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00371",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T14:11:00Z",
+    "count_delta": 1,
+    "sequence": 371,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00372",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T14:12:00Z",
+    "count_delta": 1,
+    "sequence": 372,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00373",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T14:13:00Z",
+    "count_delta": 1,
+    "sequence": 373,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00374",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T14:14:00Z",
+    "count_delta": 1,
+    "sequence": 374,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00375",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T14:15:00Z",
+    "count_delta": 1,
+    "sequence": 375,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00376",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T14:16:00Z",
+    "count_delta": 1,
+    "sequence": 376,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00377",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T14:17:00Z",
+    "count_delta": 1,
+    "sequence": 377,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00378",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T14:18:00Z",
+    "count_delta": 1,
+    "sequence": 378,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00379",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T14:19:00Z",
+    "count_delta": 1,
+    "sequence": 379,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00380",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T14:20:00Z",
+    "count_delta": 1,
+    "sequence": 380,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00381",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T14:21:00Z",
+    "count_delta": 1,
+    "sequence": 381,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00382",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T14:22:00Z",
+    "count_delta": 1,
+    "sequence": 382,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00383",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T14:23:00Z",
+    "count_delta": 1,
+    "sequence": 383,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00384",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T14:24:00Z",
+    "count_delta": 1,
+    "sequence": 384,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00385",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T14:25:00Z",
+    "count_delta": 1,
+    "sequence": 385,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00386",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T14:26:00Z",
+    "count_delta": 1,
+    "sequence": 386,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00387",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T14:27:00Z",
+    "count_delta": 1,
+    "sequence": 387,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00388",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T14:28:00Z",
+    "count_delta": 1,
+    "sequence": 388,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00389",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T14:29:00Z",
+    "count_delta": 1,
+    "sequence": 389,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00390",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T14:30:00Z",
+    "count_delta": 1,
+    "sequence": 390,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00391",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T14:31:00Z",
+    "count_delta": 1,
+    "sequence": 391,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00392",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T14:32:00Z",
+    "count_delta": 1,
+    "sequence": 392,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00393",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T14:33:00Z",
+    "count_delta": 1,
+    "sequence": 393,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00394",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T14:34:00Z",
+    "count_delta": 1,
+    "sequence": 394,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00395",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T14:35:00Z",
+    "count_delta": 1,
+    "sequence": 395,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00396",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T14:36:00Z",
+    "count_delta": 1,
+    "sequence": 396,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00397",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T14:37:00Z",
+    "count_delta": 1,
+    "sequence": 397,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00398",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T14:38:00Z",
+    "count_delta": 1,
+    "sequence": 398,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00399",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T14:39:00Z",
+    "count_delta": 1,
+    "sequence": 399,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00400",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T14:40:00Z",
+    "count_delta": 1,
+    "sequence": 400,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00401",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T14:41:00Z",
+    "count_delta": 1,
+    "sequence": 401,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00402",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T14:42:00Z",
+    "count_delta": 1,
+    "sequence": 402,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00403",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T14:43:00Z",
+    "count_delta": 1,
+    "sequence": 403,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00404",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T14:44:00Z",
+    "count_delta": 1,
+    "sequence": 404,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00405",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T14:45:00Z",
+    "count_delta": 1,
+    "sequence": 405,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00406",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T14:46:00Z",
+    "count_delta": 1,
+    "sequence": 406,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00407",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T14:47:00Z",
+    "count_delta": 1,
+    "sequence": 407,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00408",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T14:48:00Z",
+    "count_delta": 1,
+    "sequence": 408,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00409",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T14:49:00Z",
+    "count_delta": 1,
+    "sequence": 409,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00410",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T14:50:00Z",
+    "count_delta": 1,
+    "sequence": 410,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00411",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T14:51:00Z",
+    "count_delta": 1,
+    "sequence": 411,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00412",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T14:52:00Z",
+    "count_delta": 1,
+    "sequence": 412,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00413",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T14:53:00Z",
+    "count_delta": 1,
+    "sequence": 413,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00414",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T14:54:00Z",
+    "count_delta": 1,
+    "sequence": 414,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00415",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T14:55:00Z",
+    "count_delta": 1,
+    "sequence": 415,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00416",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T14:56:00Z",
+    "count_delta": 1,
+    "sequence": 416,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00417",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T14:57:00Z",
+    "count_delta": 1,
+    "sequence": 417,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00418",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T14:58:00Z",
+    "count_delta": 1,
+    "sequence": 418,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00419",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T14:59:00Z",
+    "count_delta": 1,
+    "sequence": 419,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00420",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T15:00:00Z",
+    "count_delta": 1,
+    "sequence": 420,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00421",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T15:01:00Z",
+    "count_delta": 1,
+    "sequence": 421,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00422",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T15:02:00Z",
+    "count_delta": 1,
+    "sequence": 422,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00423",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T15:03:00Z",
+    "count_delta": 1,
+    "sequence": 423,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00424",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T15:04:00Z",
+    "count_delta": 1,
+    "sequence": 424,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00425",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T15:05:00Z",
+    "count_delta": 1,
+    "sequence": 425,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00426",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T15:06:00Z",
+    "count_delta": 1,
+    "sequence": 426,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00427",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T15:07:00Z",
+    "count_delta": 1,
+    "sequence": 427,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00428",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T15:08:00Z",
+    "count_delta": 1,
+    "sequence": 428,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00429",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T15:09:00Z",
+    "count_delta": 1,
+    "sequence": 429,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00430",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T15:10:00Z",
+    "count_delta": 1,
+    "sequence": 430,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00431",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T15:11:00Z",
+    "count_delta": 1,
+    "sequence": 431,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00432",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T15:12:00Z",
+    "count_delta": 1,
+    "sequence": 432,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00433",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T15:13:00Z",
+    "count_delta": 1,
+    "sequence": 433,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00434",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T15:14:00Z",
+    "count_delta": 1,
+    "sequence": 434,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00435",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T15:15:00Z",
+    "count_delta": 1,
+    "sequence": 435,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00436",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T15:16:00Z",
+    "count_delta": 1,
+    "sequence": 436,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00437",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T15:17:00Z",
+    "count_delta": 1,
+    "sequence": 437,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00438",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T15:18:00Z",
+    "count_delta": 1,
+    "sequence": 438,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00439",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T15:19:00Z",
+    "count_delta": 1,
+    "sequence": 439,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00440",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T15:20:00Z",
+    "count_delta": 1,
+    "sequence": 440,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00441",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T15:21:00Z",
+    "count_delta": 1,
+    "sequence": 441,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00442",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T15:22:00Z",
+    "count_delta": 1,
+    "sequence": 442,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00443",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T15:23:00Z",
+    "count_delta": 1,
+    "sequence": 443,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00444",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T15:24:00Z",
+    "count_delta": 1,
+    "sequence": 444,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00445",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T15:25:00Z",
+    "count_delta": 1,
+    "sequence": 445,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00446",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T15:26:00Z",
+    "count_delta": 1,
+    "sequence": 446,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00447",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T15:27:00Z",
+    "count_delta": 1,
+    "sequence": 447,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00448",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T15:28:00Z",
+    "count_delta": 1,
+    "sequence": 448,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00449",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T15:29:00Z",
+    "count_delta": 1,
+    "sequence": 449,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00450",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T15:30:00Z",
+    "count_delta": 1,
+    "sequence": 450,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00451",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T15:31:00Z",
+    "count_delta": 1,
+    "sequence": 451,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00452",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T15:32:00Z",
+    "count_delta": 1,
+    "sequence": 452,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00453",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T15:33:00Z",
+    "count_delta": 1,
+    "sequence": 453,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00454",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T15:34:00Z",
+    "count_delta": 1,
+    "sequence": 454,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00455",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T15:35:00Z",
+    "count_delta": 1,
+    "sequence": 455,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00456",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T15:36:00Z",
+    "count_delta": 1,
+    "sequence": 456,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00457",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T15:37:00Z",
+    "count_delta": 1,
+    "sequence": 457,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00458",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T15:38:00Z",
+    "count_delta": 1,
+    "sequence": 458,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00459",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T15:39:00Z",
+    "count_delta": 1,
+    "sequence": 459,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00460",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T15:40:00Z",
+    "count_delta": 1,
+    "sequence": 460,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00461",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T15:41:00Z",
+    "count_delta": 1,
+    "sequence": 461,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00462",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T15:42:00Z",
+    "count_delta": 1,
+    "sequence": 462,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00463",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T15:43:00Z",
+    "count_delta": 1,
+    "sequence": 463,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00464",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T15:44:00Z",
+    "count_delta": 1,
+    "sequence": 464,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00465",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T15:45:00Z",
+    "count_delta": 1,
+    "sequence": 465,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00466",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T15:46:00Z",
+    "count_delta": 1,
+    "sequence": 466,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00467",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T15:47:00Z",
+    "count_delta": 1,
+    "sequence": 467,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00468",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T15:48:00Z",
+    "count_delta": 1,
+    "sequence": 468,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00469",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T15:49:00Z",
+    "count_delta": 1,
+    "sequence": 469,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00470",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T15:50:00Z",
+    "count_delta": 1,
+    "sequence": 470,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00471",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T15:51:00Z",
+    "count_delta": 1,
+    "sequence": 471,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00472",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T15:52:00Z",
+    "count_delta": 1,
+    "sequence": 472,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00473",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T15:53:00Z",
+    "count_delta": 1,
+    "sequence": 473,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00474",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T15:54:00Z",
+    "count_delta": 1,
+    "sequence": 474,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00475",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T15:55:00Z",
+    "count_delta": 1,
+    "sequence": 475,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00476",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T15:56:00Z",
+    "count_delta": 1,
+    "sequence": 476,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00477",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T15:57:00Z",
+    "count_delta": 1,
+    "sequence": 477,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00478",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T15:58:00Z",
+    "count_delta": 1,
+    "sequence": 478,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00479",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T15:59:00Z",
+    "count_delta": 1,
+    "sequence": 479,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00480",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T16:00:00Z",
+    "count_delta": 1,
+    "sequence": 480,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00481",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T16:01:00Z",
+    "count_delta": 1,
+    "sequence": 481,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00482",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T16:02:00Z",
+    "count_delta": 1,
+    "sequence": 482,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00483",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T16:03:00Z",
+    "count_delta": 1,
+    "sequence": 483,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00484",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T16:04:00Z",
+    "count_delta": 1,
+    "sequence": 484,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00485",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T16:05:00Z",
+    "count_delta": 1,
+    "sequence": 485,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00486",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T16:06:00Z",
+    "count_delta": 1,
+    "sequence": 486,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00487",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T16:07:00Z",
+    "count_delta": 1,
+    "sequence": 487,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00488",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T16:08:00Z",
+    "count_delta": 1,
+    "sequence": 488,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00489",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T16:09:00Z",
+    "count_delta": 1,
+    "sequence": 489,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00490",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T16:10:00Z",
+    "count_delta": 1,
+    "sequence": 490,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00491",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T16:11:00Z",
+    "count_delta": 1,
+    "sequence": 491,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00492",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T16:12:00Z",
+    "count_delta": 1,
+    "sequence": 492,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00493",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T16:13:00Z",
+    "count_delta": 1,
+    "sequence": 493,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00494",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T16:14:00Z",
+    "count_delta": 1,
+    "sequence": 494,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00495",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T16:15:00Z",
+    "count_delta": 1,
+    "sequence": 495,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00496",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T16:16:00Z",
+    "count_delta": 1,
+    "sequence": 496,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00497",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T16:17:00Z",
+    "count_delta": 1,
+    "sequence": 497,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00498",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T16:18:00Z",
+    "count_delta": 1,
+    "sequence": 498,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00499",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T16:19:00Z",
+    "count_delta": 1,
+    "sequence": 499,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00500",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T16:20:00Z",
+    "count_delta": 1,
+    "sequence": 500,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00501",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T16:21:00Z",
+    "count_delta": 1,
+    "sequence": 501,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00502",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T16:22:00Z",
+    "count_delta": 1,
+    "sequence": 502,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00503",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T16:23:00Z",
+    "count_delta": 1,
+    "sequence": 503,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00504",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T16:24:00Z",
+    "count_delta": 1,
+    "sequence": 504,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00505",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T16:25:00Z",
+    "count_delta": 1,
+    "sequence": 505,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00506",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T16:26:00Z",
+    "count_delta": 1,
+    "sequence": 506,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00507",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T16:27:00Z",
+    "count_delta": 1,
+    "sequence": 507,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00508",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T16:28:00Z",
+    "count_delta": 1,
+    "sequence": 508,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00509",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T16:29:00Z",
+    "count_delta": 1,
+    "sequence": 509,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00510",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T16:30:00Z",
+    "count_delta": 1,
+    "sequence": 510,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00511",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T16:31:00Z",
+    "count_delta": 1,
+    "sequence": 511,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00512",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T16:32:00Z",
+    "count_delta": 1,
+    "sequence": 512,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00513",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T16:33:00Z",
+    "count_delta": 1,
+    "sequence": 513,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00514",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T16:34:00Z",
+    "count_delta": 1,
+    "sequence": 514,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00515",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T16:35:00Z",
+    "count_delta": 1,
+    "sequence": 515,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00516",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T16:36:00Z",
+    "count_delta": 1,
+    "sequence": 516,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00517",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T16:37:00Z",
+    "count_delta": 1,
+    "sequence": 517,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00518",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T16:38:00Z",
+    "count_delta": 1,
+    "sequence": 518,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00519",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T16:39:00Z",
+    "count_delta": 1,
+    "sequence": 519,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00520",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T16:40:00Z",
+    "count_delta": 1,
+    "sequence": 520,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00521",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T16:41:00Z",
+    "count_delta": 1,
+    "sequence": 521,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00522",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T16:42:00Z",
+    "count_delta": 1,
+    "sequence": 522,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00523",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T16:43:00Z",
+    "count_delta": 1,
+    "sequence": 523,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00524",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T16:44:00Z",
+    "count_delta": 1,
+    "sequence": 524,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00525",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T16:45:00Z",
+    "count_delta": 1,
+    "sequence": 525,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00526",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T16:46:00Z",
+    "count_delta": 1,
+    "sequence": 526,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00527",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T16:47:00Z",
+    "count_delta": 1,
+    "sequence": 527,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00528",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T16:48:00Z",
+    "count_delta": 1,
+    "sequence": 528,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00529",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T16:49:00Z",
+    "count_delta": 1,
+    "sequence": 529,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00530",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T16:50:00Z",
+    "count_delta": 1,
+    "sequence": 530,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00531",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T16:51:00Z",
+    "count_delta": 1,
+    "sequence": 531,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00532",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T16:52:00Z",
+    "count_delta": 1,
+    "sequence": 532,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00533",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T16:53:00Z",
+    "count_delta": 1,
+    "sequence": 533,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00534",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T16:54:00Z",
+    "count_delta": 1,
+    "sequence": 534,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00535",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T16:55:00Z",
+    "count_delta": 1,
+    "sequence": 535,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00536",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T16:56:00Z",
+    "count_delta": 1,
+    "sequence": 536,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00537",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T16:57:00Z",
+    "count_delta": 1,
+    "sequence": 537,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00538",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T16:58:00Z",
+    "count_delta": 1,
+    "sequence": 538,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00539",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T16:59:00Z",
+    "count_delta": 1,
+    "sequence": 539,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00540",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T17:00:00Z",
+    "count_delta": 1,
+    "sequence": 540,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00541",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T17:01:00Z",
+    "count_delta": 1,
+    "sequence": 541,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00542",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T17:02:00Z",
+    "count_delta": 1,
+    "sequence": 542,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00543",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T17:03:00Z",
+    "count_delta": 1,
+    "sequence": 543,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00544",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T17:04:00Z",
+    "count_delta": 1,
+    "sequence": 544,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00545",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T17:05:00Z",
+    "count_delta": 1,
+    "sequence": 545,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00546",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T17:06:00Z",
+    "count_delta": 1,
+    "sequence": 546,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00547",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T17:07:00Z",
+    "count_delta": 1,
+    "sequence": 547,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00548",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T17:08:00Z",
+    "count_delta": 1,
+    "sequence": 548,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00549",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T17:09:00Z",
+    "count_delta": 1,
+    "sequence": 549,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00550",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T17:10:00Z",
+    "count_delta": 1,
+    "sequence": 550,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00551",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T17:11:00Z",
+    "count_delta": 1,
+    "sequence": 551,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00552",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T17:12:00Z",
+    "count_delta": 1,
+    "sequence": 552,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00553",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T17:13:00Z",
+    "count_delta": 1,
+    "sequence": 553,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00554",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T17:14:00Z",
+    "count_delta": 1,
+    "sequence": 554,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00555",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T17:15:00Z",
+    "count_delta": 1,
+    "sequence": 555,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00556",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T17:16:00Z",
+    "count_delta": 1,
+    "sequence": 556,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00557",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T17:17:00Z",
+    "count_delta": 1,
+    "sequence": 557,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00558",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T17:18:00Z",
+    "count_delta": 1,
+    "sequence": 558,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00559",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T17:19:00Z",
+    "count_delta": 1,
+    "sequence": 559,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00560",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T17:20:00Z",
+    "count_delta": 1,
+    "sequence": 560,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00561",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T17:21:00Z",
+    "count_delta": 1,
+    "sequence": 561,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00562",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T17:22:00Z",
+    "count_delta": 1,
+    "sequence": 562,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00563",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T17:23:00Z",
+    "count_delta": 1,
+    "sequence": 563,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00564",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T17:24:00Z",
+    "count_delta": 1,
+    "sequence": 564,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00565",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T17:25:00Z",
+    "count_delta": 1,
+    "sequence": 565,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00566",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T17:26:00Z",
+    "count_delta": 1,
+    "sequence": 566,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00567",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T17:27:00Z",
+    "count_delta": 1,
+    "sequence": 567,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00568",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T17:28:00Z",
+    "count_delta": 1,
+    "sequence": 568,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00569",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T17:29:00Z",
+    "count_delta": 1,
+    "sequence": 569,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00570",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T17:30:00Z",
+    "count_delta": 1,
+    "sequence": 570,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00571",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T17:31:00Z",
+    "count_delta": 1,
+    "sequence": 571,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00572",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T17:32:00Z",
+    "count_delta": 1,
+    "sequence": 572,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00573",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T17:33:00Z",
+    "count_delta": 1,
+    "sequence": 573,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00574",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T17:34:00Z",
+    "count_delta": 1,
+    "sequence": 574,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00575",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T17:35:00Z",
+    "count_delta": 1,
+    "sequence": 575,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00576",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T17:36:00Z",
+    "count_delta": 1,
+    "sequence": 576,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00577",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T17:37:00Z",
+    "count_delta": 1,
+    "sequence": 577,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00578",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T17:38:00Z",
+    "count_delta": 1,
+    "sequence": 578,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00579",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T17:39:00Z",
+    "count_delta": 1,
+    "sequence": 579,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00580",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T17:40:00Z",
+    "count_delta": 1,
+    "sequence": 580,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00581",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T17:41:00Z",
+    "count_delta": 1,
+    "sequence": 581,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00582",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T17:42:00Z",
+    "count_delta": 1,
+    "sequence": 582,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00583",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T17:43:00Z",
+    "count_delta": 1,
+    "sequence": 583,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00584",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T17:44:00Z",
+    "count_delta": 1,
+    "sequence": 584,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00585",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T17:45:00Z",
+    "count_delta": 1,
+    "sequence": 585,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00586",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T17:46:00Z",
+    "count_delta": 1,
+    "sequence": 586,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00587",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T17:47:00Z",
+    "count_delta": 1,
+    "sequence": 587,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00588",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T17:48:00Z",
+    "count_delta": 1,
+    "sequence": 588,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00589",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T17:49:00Z",
+    "count_delta": 1,
+    "sequence": 589,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00590",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T17:50:00Z",
+    "count_delta": 1,
+    "sequence": 590,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00591",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T17:51:00Z",
+    "count_delta": 1,
+    "sequence": 591,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00592",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T17:52:00Z",
+    "count_delta": 1,
+    "sequence": 592,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00593",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T17:53:00Z",
+    "count_delta": 1,
+    "sequence": 593,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00594",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T17:54:00Z",
+    "count_delta": 1,
+    "sequence": 594,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00595",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T17:55:00Z",
+    "count_delta": 1,
+    "sequence": 595,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00596",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T17:56:00Z",
+    "count_delta": 1,
+    "sequence": 596,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00597",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T17:57:00Z",
+    "count_delta": 1,
+    "sequence": 597,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00598",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T17:58:00Z",
+    "count_delta": 1,
+    "sequence": 598,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00599",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T17:59:00Z",
+    "count_delta": 1,
+    "sequence": 599,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00600",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T08:00:00Z",
+    "count_delta": 1,
+    "sequence": 600,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00601",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T08:01:00Z",
+    "count_delta": 1,
+    "sequence": 601,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00602",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T08:02:00Z",
+    "count_delta": 1,
+    "sequence": 602,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00603",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T08:03:00Z",
+    "count_delta": 1,
+    "sequence": 603,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00604",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T08:04:00Z",
+    "count_delta": 1,
+    "sequence": 604,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00605",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T08:05:00Z",
+    "count_delta": 1,
+    "sequence": 605,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00606",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T08:06:00Z",
+    "count_delta": 1,
+    "sequence": 606,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00607",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T08:07:00Z",
+    "count_delta": 1,
+    "sequence": 607,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00608",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T08:08:00Z",
+    "count_delta": 1,
+    "sequence": 608,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00609",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T08:09:00Z",
+    "count_delta": 1,
+    "sequence": 609,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00610",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T08:10:00Z",
+    "count_delta": 1,
+    "sequence": 610,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00611",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T08:11:00Z",
+    "count_delta": 1,
+    "sequence": 611,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00612",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T08:12:00Z",
+    "count_delta": 1,
+    "sequence": 612,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00613",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T08:13:00Z",
+    "count_delta": 1,
+    "sequence": 613,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00614",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T08:14:00Z",
+    "count_delta": 1,
+    "sequence": 614,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00615",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T08:15:00Z",
+    "count_delta": 1,
+    "sequence": 615,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00616",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T08:16:00Z",
+    "count_delta": 1,
+    "sequence": 616,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00617",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T08:17:00Z",
+    "count_delta": 1,
+    "sequence": 617,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00618",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T08:18:00Z",
+    "count_delta": 1,
+    "sequence": 618,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00619",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T08:19:00Z",
+    "count_delta": 1,
+    "sequence": 619,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00620",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T08:20:00Z",
+    "count_delta": 1,
+    "sequence": 620,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00621",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T08:21:00Z",
+    "count_delta": 1,
+    "sequence": 621,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00622",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T08:22:00Z",
+    "count_delta": 1,
+    "sequence": 622,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00623",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T08:23:00Z",
+    "count_delta": 1,
+    "sequence": 623,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00624",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T08:24:00Z",
+    "count_delta": 1,
+    "sequence": 624,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00625",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T08:25:00Z",
+    "count_delta": 1,
+    "sequence": 625,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00626",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T08:26:00Z",
+    "count_delta": 1,
+    "sequence": 626,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00627",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T08:27:00Z",
+    "count_delta": 1,
+    "sequence": 627,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00628",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T08:28:00Z",
+    "count_delta": 1,
+    "sequence": 628,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00629",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T08:29:00Z",
+    "count_delta": 1,
+    "sequence": 629,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00630",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T08:30:00Z",
+    "count_delta": 1,
+    "sequence": 630,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00631",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T08:31:00Z",
+    "count_delta": 1,
+    "sequence": 631,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00632",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T08:32:00Z",
+    "count_delta": 1,
+    "sequence": 632,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00633",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T08:33:00Z",
+    "count_delta": 1,
+    "sequence": 633,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00634",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T08:34:00Z",
+    "count_delta": 1,
+    "sequence": 634,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00635",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T08:35:00Z",
+    "count_delta": 1,
+    "sequence": 635,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00636",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T08:36:00Z",
+    "count_delta": 1,
+    "sequence": 636,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00637",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T08:37:00Z",
+    "count_delta": 1,
+    "sequence": 637,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00638",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T08:38:00Z",
+    "count_delta": 1,
+    "sequence": 638,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00639",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T08:39:00Z",
+    "count_delta": 1,
+    "sequence": 639,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00640",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T08:40:00Z",
+    "count_delta": 1,
+    "sequence": 640,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00641",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T08:41:00Z",
+    "count_delta": 1,
+    "sequence": 641,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00642",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T08:42:00Z",
+    "count_delta": 1,
+    "sequence": 642,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00643",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T08:43:00Z",
+    "count_delta": 1,
+    "sequence": 643,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00644",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T08:44:00Z",
+    "count_delta": 1,
+    "sequence": 644,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00645",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T08:45:00Z",
+    "count_delta": 1,
+    "sequence": 645,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00646",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T08:46:00Z",
+    "count_delta": 1,
+    "sequence": 646,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00647",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T08:47:00Z",
+    "count_delta": 1,
+    "sequence": 647,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00648",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T08:48:00Z",
+    "count_delta": 1,
+    "sequence": 648,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00649",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T08:49:00Z",
+    "count_delta": 1,
+    "sequence": 649,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00650",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T08:50:00Z",
+    "count_delta": 1,
+    "sequence": 650,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00651",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T08:51:00Z",
+    "count_delta": 1,
+    "sequence": 651,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00652",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T08:52:00Z",
+    "count_delta": 1,
+    "sequence": 652,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00653",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T08:53:00Z",
+    "count_delta": 1,
+    "sequence": 653,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00654",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T08:54:00Z",
+    "count_delta": 1,
+    "sequence": 654,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00655",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T08:55:00Z",
+    "count_delta": 1,
+    "sequence": 655,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00656",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T08:56:00Z",
+    "count_delta": 1,
+    "sequence": 656,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00657",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T08:57:00Z",
+    "count_delta": 1,
+    "sequence": 657,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00658",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T08:58:00Z",
+    "count_delta": 1,
+    "sequence": 658,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00659",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T08:59:00Z",
+    "count_delta": 1,
+    "sequence": 659,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00660",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T09:00:00Z",
+    "count_delta": 1,
+    "sequence": 660,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00661",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T09:01:00Z",
+    "count_delta": 1,
+    "sequence": 661,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00662",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T09:02:00Z",
+    "count_delta": 1,
+    "sequence": 662,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00663",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T09:03:00Z",
+    "count_delta": 1,
+    "sequence": 663,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00664",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T09:04:00Z",
+    "count_delta": 1,
+    "sequence": 664,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00665",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T09:05:00Z",
+    "count_delta": 1,
+    "sequence": 665,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00666",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T09:06:00Z",
+    "count_delta": 1,
+    "sequence": 666,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00667",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T09:07:00Z",
+    "count_delta": 1,
+    "sequence": 667,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00668",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T09:08:00Z",
+    "count_delta": 1,
+    "sequence": 668,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00669",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T09:09:00Z",
+    "count_delta": 1,
+    "sequence": 669,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00670",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T09:10:00Z",
+    "count_delta": 1,
+    "sequence": 670,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00671",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T09:11:00Z",
+    "count_delta": 1,
+    "sequence": 671,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00672",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T09:12:00Z",
+    "count_delta": 1,
+    "sequence": 672,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00673",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T09:13:00Z",
+    "count_delta": 1,
+    "sequence": 673,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00674",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T09:14:00Z",
+    "count_delta": 1,
+    "sequence": 674,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00675",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T09:15:00Z",
+    "count_delta": 1,
+    "sequence": 675,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00676",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T09:16:00Z",
+    "count_delta": 1,
+    "sequence": 676,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00677",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T09:17:00Z",
+    "count_delta": 1,
+    "sequence": 677,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00678",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T09:18:00Z",
+    "count_delta": 1,
+    "sequence": 678,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00679",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T09:19:00Z",
+    "count_delta": 1,
+    "sequence": 679,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00680",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T09:20:00Z",
+    "count_delta": 1,
+    "sequence": 680,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00681",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T09:21:00Z",
+    "count_delta": 1,
+    "sequence": 681,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00682",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T09:22:00Z",
+    "count_delta": 1,
+    "sequence": 682,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00683",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T09:23:00Z",
+    "count_delta": 1,
+    "sequence": 683,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00684",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T09:24:00Z",
+    "count_delta": 1,
+    "sequence": 684,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00685",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T09:25:00Z",
+    "count_delta": 1,
+    "sequence": 685,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00686",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T09:26:00Z",
+    "count_delta": 1,
+    "sequence": 686,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00687",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T09:27:00Z",
+    "count_delta": 1,
+    "sequence": 687,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00688",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T09:28:00Z",
+    "count_delta": 1,
+    "sequence": 688,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00689",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T09:29:00Z",
+    "count_delta": 1,
+    "sequence": 689,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00690",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T09:30:00Z",
+    "count_delta": 1,
+    "sequence": 690,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00691",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T09:31:00Z",
+    "count_delta": 1,
+    "sequence": 691,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00692",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T09:32:00Z",
+    "count_delta": 1,
+    "sequence": 692,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00693",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T09:33:00Z",
+    "count_delta": 1,
+    "sequence": 693,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00694",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T09:34:00Z",
+    "count_delta": 1,
+    "sequence": 694,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00695",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T09:35:00Z",
+    "count_delta": 1,
+    "sequence": 695,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00696",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T09:36:00Z",
+    "count_delta": 1,
+    "sequence": 696,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00697",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T09:37:00Z",
+    "count_delta": 1,
+    "sequence": 697,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00698",
+    "store_id": "KMB-S09",
+    "device_id": "KMB-D08",
+    "event_time_utc": "2026-06-29T09:38:00Z",
+    "count_delta": 1,
+    "sequence": 698,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00699",
+    "store_id": "KMB-S10",
+    "device_id": "KMB-D09",
+    "event_time_utc": "2026-06-29T09:39:00Z",
+    "count_delta": 1,
+    "sequence": 699,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00700",
+    "store_id": "KMB-S11",
+    "device_id": "KMB-D10",
+    "event_time_utc": "2026-06-29T09:40:00Z",
+    "count_delta": 1,
+    "sequence": 700,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00701",
+    "store_id": "KMB-S12",
+    "device_id": "KMB-D11",
+    "event_time_utc": "2026-06-29T09:41:00Z",
+    "count_delta": 1,
+    "sequence": 701,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00702",
+    "store_id": "KMB-S13",
+    "device_id": "KMB-D12",
+    "event_time_utc": "2026-06-29T09:42:00Z",
+    "count_delta": 1,
+    "sequence": 702,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00703",
+    "store_id": "KMB-S14",
+    "device_id": "KMB-D13",
+    "event_time_utc": "2026-06-29T09:43:00Z",
+    "count_delta": 1,
+    "sequence": 703,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00704",
+    "store_id": "KMB-S15",
+    "device_id": "KMB-D14",
+    "event_time_utc": "2026-06-29T09:44:00Z",
+    "count_delta": 1,
+    "sequence": 704,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00705",
+    "store_id": "KMB-S16",
+    "device_id": "KMB-D15",
+    "event_time_utc": "2026-06-29T09:45:00Z",
+    "count_delta": 1,
+    "sequence": 705,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00706",
+    "store_id": "KMB-S17",
+    "device_id": "KMB-D16",
+    "event_time_utc": "2026-06-29T09:46:00Z",
+    "count_delta": 1,
+    "sequence": 706,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00707",
+    "store_id": "KMB-S18",
+    "device_id": "KMB-D17",
+    "event_time_utc": "2026-06-29T09:47:00Z",
+    "count_delta": 1,
+    "sequence": 707,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00708",
+    "store_id": "KMB-S19",
+    "device_id": "KMB-D18",
+    "event_time_utc": "2026-06-29T09:48:00Z",
+    "count_delta": 1,
+    "sequence": 708,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00709",
+    "store_id": "KMB-S20",
+    "device_id": "KMB-D19",
+    "event_time_utc": "2026-06-29T09:49:00Z",
+    "count_delta": 1,
+    "sequence": 709,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00710",
+    "store_id": "KMB-S21",
+    "device_id": "KMB-D20",
+    "event_time_utc": "2026-06-29T09:50:00Z",
+    "count_delta": 1,
+    "sequence": 710,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00711",
+    "store_id": "KMB-S22",
+    "device_id": "KMB-D21",
+    "event_time_utc": "2026-06-29T09:51:00Z",
+    "count_delta": 1,
+    "sequence": 711,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00712",
+    "store_id": "KMB-S23",
+    "device_id": "KMB-D22",
+    "event_time_utc": "2026-06-29T09:52:00Z",
+    "count_delta": 1,
+    "sequence": 712,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00713",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T09:53:00Z",
+    "count_delta": 1,
+    "sequence": 713,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00714",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T09:54:00Z",
+    "count_delta": 1,
+    "sequence": 714,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00715",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T09:55:00Z",
+    "count_delta": 1,
+    "sequence": 715,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00716",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T09:56:00Z",
+    "count_delta": 1,
+    "sequence": 716,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00717",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T09:57:00Z",
+    "count_delta": 1,
+    "sequence": 717,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00718",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T09:58:00Z",
+    "count_delta": 1,
+    "sequence": 718,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00719",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T09:59:00Z",
+    "count_delta": 1,
+    "sequence": 719,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00000",
+    "store_id": "KMB-S01",
+    "device_id": "KMB-D00",
+    "event_time_utc": "2026-06-29T08:00:00Z",
+    "count_delta": 1,
+    "sequence": 0,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00001",
+    "store_id": "KMB-S02",
+    "device_id": "KMB-D01",
+    "event_time_utc": "2026-06-29T08:01:00Z",
+    "count_delta": 1,
+    "sequence": 1,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00002",
+    "store_id": "KMB-S03",
+    "device_id": "KMB-D02",
+    "event_time_utc": "2026-06-29T08:02:00Z",
+    "count_delta": 1,
+    "sequence": 2,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00003",
+    "store_id": "KMB-S04",
+    "device_id": "KMB-D03",
+    "event_time_utc": "2026-06-29T08:03:00Z",
+    "count_delta": 1,
+    "sequence": 3,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00004",
+    "store_id": "KMB-S05",
+    "device_id": "KMB-D04",
+    "event_time_utc": "2026-06-29T08:04:00Z",
+    "count_delta": 1,
+    "sequence": 4,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00005",
+    "store_id": "KMB-S06",
+    "device_id": "KMB-D05",
+    "event_time_utc": "2026-06-29T08:05:00Z",
+    "count_delta": 1,
+    "sequence": 5,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00006",
+    "store_id": "KMB-S07",
+    "device_id": "KMB-D06",
+    "event_time_utc": "2026-06-29T08:06:00Z",
+    "count_delta": 1,
+    "sequence": 6,
+    "schema_version": 1
+  },
+  {
+    "event_id": "KMB-F00007",
+    "store_id": "KMB-S08",
+    "device_id": "KMB-D07",
+    "event_time_utc": "2026-06-29T08:07:00Z",
+    "count_delta": 1,
+    "sequence": 7,
+    "schema_version": 1
+  }
+]

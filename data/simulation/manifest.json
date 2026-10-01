@@ -1,0 +1,31 @@
+{
+  "classification": "SYNTHETIC ASSIGNMENT SIMULATION - not actual SRG observations",
+  "seed": 27300,
+  "counts": {
+    "customer_rows": 5000,
+    "distinct_customer_ids": 4100,
+    "product_rows": 1200,
+    "distinct_skus": 1140,
+    "sales_rows": 60000
+  },
+  "period": "2026-01-01 to 2026-06-30",
+  "generated_by": "scripts/generate_simulation.py",
+  "files": {
+    "SRG_CRM.csv": "66e4df57ac246cf4441b0001a1abfcfbee32ef8cee8aed75432138d86fdf237d",
+    "SRG_Customers.csv": "937d74bdffb810afc8584cb62d84e2a61a2cdcb33728fe81a46dbb4f8864fff7",
+    "SRG_HR.csv": "944dfecf54978825e3ea915da70f1716d69e3f902e843c98278576986d229c11",
+    "SRG_Inventory.csv": "c3722a3cad5df1138c92c45fa11eca8b3c3240bf22451b72d7f92cffbae982e9",
+    "SRG_Loyalty.csv": "83e8220b8b67fcf821111a2d73d47fb6d9c79ec1e27f91dbdf3e12843894570e",
+    "SRG_MobileMoney.csv": "3acbe222ba9bd7181690f6910ec2910ef7fa0cf57e0274697d7ca231a6b8bd05",
+    "SRG_Products.csv": "47f4659939c953d3ae3c56e1ac9f0f6336c838fcaad832a1015e16b6b9949d36",
+    "SRG_Sales.csv": "8b73d0a05f5b4b2a77758295c19ed9e32acecbe499d4a77aa80aea983c943f33",
+    "SRG_Stores.csv": "1d99dde12ed91a85b6ac34cf80156f1c604f0cee61f741ee4f1a30b5fd402ad2",
+    "SRG_Suppliers.csv": "e430e2817e6ebfcd4194b92f1497c56a2980eb7f20998757e444615eb5d6e6f2",
+    "customer_truth.csv": "49ce1cc5da0726f2f2ee1c08d99f139bc27bbf426c7d2e2cf5f6ce475fecc730",
+    "etl_error_log.txt": "6ae9d3b5144bcf1114bab4f6284e8faff8fd3a1ebababbd37a0d1abf1f8e0a9b",
+    "footfall_stream_sample.json": "b901399b60486a8c013a6d935b86cceb1cce9363db7377f4e09d4745dbfd6398",
+    "product_truth.csv": "74e99bcb2ddaf1301ee2822bc29e3e1968f5c07f061e97b3db1a980b6082aca0",
+    "sales_truth.csv": "5b5ff58a6b5353314fbb3d1b5cbc0bb0642fc7dbca23b150b63509f3a6f431db",
+    "verified_contact_updates.csv": "a930ed61f41d4d382b110ee5635c5c0529a8625c7c403a94a252b3c144a61ace"
+  }
+}

@@ -1,0 +1,4 @@
+row,field,reason
+4,dob,invalid or ambiguous date
+5,phone,invalid; original retained only in restricted raw zone
+5,district,unrecognised; needs steward review

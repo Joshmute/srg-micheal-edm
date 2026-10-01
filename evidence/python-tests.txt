@@ -1,0 +1,15 @@
+test_ambiguous_date_requires_contract (test_pipeline.QualityTests.test_ambiguous_date_requires_contract) ... ok
+test_empty_profile_no_fake_zero (test_pipeline.QualityTests.test_empty_profile_no_fake_zero) ... ok
+test_masking_removes_direct_identifiers (test_pipeline.QualityTests.test_masking_removes_direct_identifiers) ... ok
+test_phone_variants_and_invalid (test_pipeline.QualityTests.test_phone_variants_and_invalid) ... ok
+test_shared_phone_not_identity (test_pipeline.QualityTests.test_shared_phone_not_identity) ... ok
+test_synthetic_pipeline (test_pipeline.QualityTests.test_synthetic_pipeline) ... ok
+test_cash_null_payment_reference_is_retained (test_pipeline.SalesTests.test_cash_null_payment_reference_is_retained) ... ok
+test_conflicting_replay_quarantined (test_pipeline.SalesTests.test_conflicting_replay_quarantined) ... ok
+test_orphans_and_bad_currency (test_pipeline.SalesTests.test_orphans_and_bad_currency) ... ok
+test_return_and_replay (test_pipeline.SalesTests.test_return_and_replay) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.021s
+
+OK

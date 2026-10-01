@@ -1,0 +1,15 @@
+Rule,Check and exception response,Owner
+V01,Nonblank source/customer ID; quarantine missing identity key,Customer service
+V02,"Canonical Uganda phone format; ask for correction, never invent",Customer service
+V03,Email syntax when supplied; retain optionality,Customer service
+V04,Approved district code; return unknown labels for review,Store manager
+V05,Explicit date contract; quarantine ambiguity,IT
+V06,Canonical SKU exists; block orphan line,Procurement
+V07,Approved unit and pack conversion; hold uncertain receipt,Procurement
+V08,Signed quantity permitted only for declared sale/return type,Finance
+V09,Nonnegative unit price and accepted currency,Finance
+V10,Unique source/order/line; compare replay payload,IT
+V11,Provider/reference unique where supplied; cash may be null,Finance
+V12,No overlapping dimension validity intervals,IT
+V13,Marketing purpose and evidence required; withdrawal suppresses,DPO
+V14,"Source totals, row counts and hashes reconciled before certification",Finance

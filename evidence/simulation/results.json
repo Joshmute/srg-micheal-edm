@@ -1,0 +1,283 @@
+{
+  "simulation": true,
+  "seed": 27300,
+  "sales": {
+    "input_rows": 60000,
+    "loaded": 60000,
+    "replayed": 0,
+    "quarantined": 0,
+    "errors": []
+  },
+  "replay": {
+    "input_rows": 60000,
+    "loaded": 0,
+    "replayed": 60000,
+    "quarantined": 0,
+    "errors": []
+  },
+  "net_sales_by_currency": {
+    "UGX": "1502003100.00",
+    "KES": "609850.00",
+    "RWF": "5975822.00"
+  },
+  "monthly": [
+    {
+      "month": "2026-01",
+      "currency": "KES",
+      "net_sales": "122762.00",
+      "active_customers": 121,
+      "rows": 138
+    },
+    {
+      "month": "2026-01",
+      "currency": "RWF",
+      "net_sales": "1070882.00",
+      "active_customers": 115,
+      "rows": 137
+    },
+    {
+      "month": "2026-01",
+      "currency": "UGX",
+      "net_sales": "274417200.00",
+      "active_customers": 3712,
+      "rows": 10725
+    },
+    {
+      "month": "2026-02",
+      "currency": "KES",
+      "net_sales": "105182.00",
+      "active_customers": 114,
+      "rows": 131
+    },
+    {
+      "month": "2026-02",
+      "currency": "RWF",
+      "net_sales": "979924.00",
+      "active_customers": 119,
+      "rows": 131
+    },
+    {
+      "month": "2026-02",
+      "currency": "UGX",
+      "net_sales": "264393000.00",
+      "active_customers": 3659,
+      "rows": 10238
+    },
+    {
+      "month": "2026-03",
+      "currency": "KES",
+      "net_sales": "74550.00",
+      "active_customers": 89,
+      "rows": 106
+    },
+    {
+      "month": "2026-03",
+      "currency": "RWF",
+      "net_sales": "852898.00",
+      "active_customers": 93,
+      "rows": 107
+    },
+    {
+      "month": "2026-03",
+      "currency": "UGX",
+      "net_sales": "213652700.00",
+      "active_customers": 3454,
+      "rows": 8287
+    },
+    {
+      "month": "2026-04",
+      "currency": "KES",
+      "net_sales": "93958.00",
+      "active_customers": 98,
+      "rows": 113
+    },
+    {
+      "month": "2026-04",
+      "currency": "RWF",
+      "net_sales": "858376.00",
+      "active_customers": 102,
+      "rows": 112
+    },
+    {
+      "month": "2026-04",
+      "currency": "UGX",
+      "net_sales": "224587700.00",
+      "active_customers": 3176,
+      "rows": 8775
+    },
+    {
+      "month": "2026-05",
+      "currency": "KES",
+      "net_sales": "125602.00",
+      "active_customers": 142,
+      "rows": 156
+    },
+    {
+      "month": "2026-05",
+      "currency": "RWF",
+      "net_sales": "1233208.00",
+      "active_customers": 142,
+      "rows": 156
+    },
+    {
+      "month": "2026-05",
+      "currency": "UGX",
+      "net_sales": "313275600.00",
+      "active_customers": 3357,
+      "rows": 12188
+    },
+    {
+      "month": "2026-06",
+      "currency": "KES",
+      "net_sales": "87796.00",
+      "active_customers": 93,
+      "rows": 106
+    },
+    {
+      "month": "2026-06",
+      "currency": "RWF",
+      "net_sales": "980534.00",
+      "active_customers": 102,
+      "rows": 107
+    },
+    {
+      "month": "2026-06",
+      "currency": "UGX",
+      "net_sales": "211676900.00",
+      "active_customers": 3103,
+      "rows": 8287
+    }
+  ],
+  "unmatched_electronic": {
+    "UGX": {
+      "count": 470,
+      "net_value": "12017000.00"
+    },
+    "KES": {
+      "count": 6,
+      "net_value": "6594.00"
+    },
+    "RWF": {
+      "count": 6,
+      "net_value": "14464.00"
+    }
+  },
+  "inactivity": {
+    "as_of": "2026-07-01",
+    "eligible_members": 4096,
+    "inactive_90_days": 600,
+    "inactive_pct": 14.65
+  },
+  "footfall": {
+    "input_events": 728,
+    "unique_events": 720,
+    "duplicate_events": 8
+  },
+  "enriched_attributes": 1210,
+  "returned_lines": 3993,
+  "rows": {
+    "customer_input": 5000,
+    "customer_output": 4100,
+    "product_input": 1200,
+    "product_output": 1140
+  },
+  "metrics": {
+    "customers": {
+      "before": {
+        "rows": 5000,
+        "accuracy_pct": 92.61,
+        "accuracy_note": "Agreement with generator truth on all specified values; not independently verified real-world accuracy.",
+        "timeliness_note": "Freshness uses updated_at <=90 days; missing/invalid timestamps are unassessable.",
+        "timeliness_assessable_rows": 5000,
+        "timeliness_pct": 80.0,
+        "date_format_counts": {
+          "ambiguous_slash": 715,
+          "iso": 2857,
+          "year_first_slash": 1428
+        },
+        "candidate_duplicate_excess_rows": 739,
+        "candidate_duplicate_pct": 14.78,
+        "uniqueness_pct": 85.22,
+        "identity_assessable_rows": 4107,
+        "missing_contact_pct": 7.16,
+        "completeness_pct": 89.64,
+        "phone_format_counts": {
+          "missing": 358,
+          "international_bare": 1250,
+          "international_00": 1072,
+          "international_plus": 1250,
+          "national": 802,
+          "other": 268
+        },
+        "validity_pct": 84.0,
+        "invalid_district_rows": 200,
+        "consistency_pct": 25.0,
+        "accuracy_checked_values": 20000,
+        "accuracy_correct_values": 18523
+      },
+      "after": {
+        "rows": 4100,
+        "accuracy_pct": 100.0,
+        "accuracy_note": "Agreement with generator truth on all specified values; not independently verified real-world accuracy.",
+        "timeliness_note": "Freshness uses updated_at <=90 days; missing/invalid timestamps are unassessable.",
+        "timeliness_assessable_rows": 4100,
+        "timeliness_pct": 80.0,
+        "date_format_counts": {
+          "iso": 4100
+        },
+        "candidate_duplicate_excess_rows": 0,
+        "candidate_duplicate_pct": 0.0,
+        "uniqueness_pct": 100.0,
+        "identity_assessable_rows": 4100,
+        "missing_contact_pct": 0.0,
+        "completeness_pct": 100.0,
+        "phone_format_counts": {
+          "international_plus": 4100
+        },
+        "validity_pct": 100.0,
+        "invalid_district_rows": 0,
+        "consistency_pct": 100.0,
+        "accuracy_checked_values": 16400,
+        "accuracy_correct_values": 16400
+      }
+    },
+    "products": {
+      "before": {
+        "rows": 1200,
+        "accuracy_pct": 96.81,
+        "accuracy_note": "Agreement with generator truth on all specified values; not independently verified real-world accuracy.",
+        "timeliness_note": "Freshness uses updated_at <=90 days; missing/invalid timestamps are unassessable.",
+        "timeliness_assessable_rows": 1200,
+        "timeliness_pct": 100.0,
+        "date_format_counts": {
+          "iso": 1200
+        },
+        "duplicate_sku_excess_rows": 60,
+        "uniqueness_pct": 95.0,
+        "completeness_pct": 100.0,
+        "consistency_pct": 0.0,
+        "validity_pct": 0.0,
+        "accuracy_checked_values": 3600,
+        "accuracy_correct_values": 3485
+      },
+      "after": {
+        "rows": 1140,
+        "accuracy_pct": 100.0,
+        "accuracy_note": "Agreement with generator truth on all specified values; not independently verified real-world accuracy.",
+        "timeliness_note": "Freshness uses updated_at <=90 days; missing/invalid timestamps are unassessable.",
+        "timeliness_assessable_rows": 1140,
+        "timeliness_pct": 100.0,
+        "date_format_counts": {
+          "iso": 1140
+        },
+        "duplicate_sku_excess_rows": 0,
+        "uniqueness_pct": 100.0,
+        "completeness_pct": 100.0,
+        "consistency_pct": 100.0,
+        "validity_pct": 100.0,
+        "accuracy_checked_values": 3420,
+        "accuracy_correct_values": 3420
+      }
+    }
+  }
+}

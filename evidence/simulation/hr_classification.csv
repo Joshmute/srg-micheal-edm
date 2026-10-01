@@ -1,0 +1,7 @@
+field,classification,reason
+name,Restricted,Direct identifier
+salary_ugx,Restricted,Personal financial information
+bank_account,Restricted,Banking information
+national_id,Restricted,Government identifier
+health_note,Restricted,Health information
+next_of_kin_phone,Restricted,Third-party contact

@@ -1,0 +1,13 @@
+Obligation,Gap and action,Owner
+"DPPA ss3,7","Purpose and processing basis unclear; document notices and appropriate basis, P1",DPO
+"DPPA ss18,20","Retention and security evidence absent; schedules, encryption and access review, P1",IT and owners
+DPPA s19,"Overseas processing needs assessment and safeguards, P1",DPO
+DPPA s23; Reg33,"Jinja notification gap; assess immediately and use Form7, P1",DPO
+"DPPA ss24,26,28","Access, correction and marketing objection routes unproven; test requests, P1",Customer service
+DPPA s29,"Registration status not supplied; establish and complete applicable registration, P1",DPO
+"GDPR Arts3,6,13–14","EU scope, basis and notices need assessment, P1",DPO
+"GDPR Arts15–22,25","Rights and privacy by design need end-to-end tests, P1",DPO and IT
+"GDPR Arts28,32","Processor terms and security assurance absent, P1",Procurement and IT
+GDPR Arts33–36,"Breach and DPIA gates needed; high-risk consultation where required, P1",DPO
+GDPR Arts44–49,"Transfer mechanism and assessment unresolved, P1",DPO
+"CCPA §§1798.100–.135, .140","Check business scope and rights; sale/share and sensitive-use controls if applicable, P2",DPO

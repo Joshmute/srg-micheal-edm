@@ -1,0 +1,13 @@
+Risk,Initial L×I,Response and owner,Residual
+Lost device export,5×5=25,Managed encryption and export expiry; IT,2×5=10
+Wrong person merge,4×5=20,Human review and reversible ledger; Customer service,2×5=10
+Privileged misuse,3×5=15,Separate named accounts and review; IT,2×5=10
+Phishing takeover,4×4=16,MFA and drills; IT,2×4=8
+Backup unavailable,4×5=20,Isolated copy and restore exercise; IT,2×5=10
+Delayed breach report,4×5=20,Duty contact and rehearsal; DPO,2×4=8
+Incorrect unit mapping,4×4=16,Procurement approval and receipt checks,2×4=8
+Duplicate load,4×3=12,Business-key control and replay tests; IT,1×3=3
+Unreported stale store,4×4=16,Expected-file register and freshness; IT,2×3=6
+Unlawful sharing,3×5=15,Destination and processor review; DPO,2×4=8
+Excess HR access,3×5=15,HR schema isolation and denied-query tests; HR,1×5=5
+Cost/support overrun,4×4=16,Phased quotations and handover gate; CFO,2×4=8

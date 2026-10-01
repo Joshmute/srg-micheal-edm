@@ -1,0 +1,7 @@
+loaded_facts
+60000
+currency	net_sales	rows_loaded
+UGX	1502003100.00	58500
+KES	609850.00	750
+RWF	5975822.00	750
+PASS: 60,000 facts remain after two loads; every currency total matches independent Python Decimal aggregation.

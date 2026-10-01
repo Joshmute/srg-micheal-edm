@@ -1,0 +1,26 @@
+mysql_version
+8.4.11
+result
+PASS: MySQL product/store SCD2 replay and historical lookup
+CURRENT_ROLE()
+`srg_analyst`@`%`
+ERROR 1142 (42000) at line 1: SELECT command denied to user 'demo_analyst'@'localhost' for table 'customer'
+PASS: demo_analyst forbidden operation denied
+ERROR 1142 (42000) at line 1: SELECT command denied to user 'demo_analyst'@'localhost' for table 'employee'
+PASS: demo_analyst forbidden operation denied
+ERROR 1142 (42000) at line 1: DELETE command denied to user 'demo_analyst'@'localhost' for table 'fact_sales'
+PASS: demo_analyst forbidden operation denied
+ERROR 1143 (42000) at line 1: UPDATE command denied to user 'demo_steward'@'localhost' for column 'consent_marketing' in table 'customer'
+PASS: demo_steward forbidden operation denied
+ERROR 1142 (42000) at line 1: UPDATE command denied to user 'demo_etl'@'localhost' for table 'dim_product'
+PASS: demo_etl forbidden operation denied
+ERROR 1644 (45000) at line 1: Late history requires controlled rebuild
+PASS: late history rejected
+Note (Code 1051): Unknown table 'warehouse.stage_sales'
+result
+PASS: MySQL staged ETL, replay, returns, 4 facts and UGX 11500 synthetic total
+month_start	district	category	currency	net_sales	net_units	active_customers
+2026-09-01	Gulu	Beverages	UGX	7500.00	3.000	0
+2026-09-01	Jinja	Grocery	UGX	1000.00	1.000	1
+2026-09-01	Kampala	Grocery	UGX	3000.00	1.000	1
+PASS: all MySQL integration, ETL and privilege tests

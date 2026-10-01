@@ -1,0 +1,8 @@
+SIMULATED ETL DIAGNOSTIC - executed demonstration; not an instructor job
+REPRODUCED date conversion failure: time data '01/01/2026' does not match format '%Y-%m-%d'
+REPRODUCED missing product lookup: 'kmb-p0001'
+REPRODUCED replay failure: duplicate key after retry of committed row
+FIX VERIFIED: source-specific day-first parsing succeeds.
+FIX VERIFIED: approved uppercase SKU standardisation resolves lookup.
+FIX VERIFIED: source/order/line identity yields one fact after replay; negative return is preserved.
+PREVENTION: versioned source contracts, reference coverage check, transaction manifest and replay test.

@@ -1,0 +1,11 @@
+Decision,Reason and alternative,Revisit when
+Central reporting,Four-person team; reject independent store marts,Country teams gain engineering staff
+Registry MDM,Retain local ownership; defer mandatory central creation,Conflicts exceed correction capacity
+Human identity review,False-merge harm outweighs convenience,Representative tests justify narrower automation
+ETL before certification,Minimise sensitive certified fields; defer broad ELT,Governed analytical demand increases
+SCD2 product/store,Preserve event-time reporting; avoid overwriting history,Approved retroactive correction required
+Nightly first,Affordable support; defer universal streaming,Measured benefit exceeds operating cost
+Dictionary before tool,Avoid unsupported catalogue platform,Pilot shows lower stewardship effort
+Currency-separated totals,No supplied FX policy; reject simple addition,Finance approves rates and valuation date
+Two-store pilot,Demonstrate support and weak-network behaviour,Acceptance gates passed
+HMAC analytics IDs,Reduce direct exposure; avoid plain identifier hashes,Threat model or key compromise changes

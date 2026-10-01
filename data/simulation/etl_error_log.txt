@@ -1,0 +1,4 @@
+SIMULATED FAILURE FIXTURE - not an instructor log
+2026-06-29T00:01:02Z ERROR batch=KMB-042 source=pos row=3 date=03/04/2026 conversion failed: ISO date expected
+2026-06-29T00:01:03Z ERROR batch=KMB-042 row=4 sku=kmb-p0001 lookup failed: case-sensitive dictionary
+2026-06-29T00:01:04Z ERROR retry=1 batch=KMB-042 duplicate business key source/order/line; previous rows were committed

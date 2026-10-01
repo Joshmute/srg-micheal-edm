@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+# Private instructor inputs and row-level outputs never belong in Git.
+data/raw/*
+!data/raw/README.md
+data/processed/
+tmp/
+*.sqlite*
+ENTERPRISE DATA MANAGEMENT.pdf
+# Rebuild large transient SQL load from scripts/analyse_simulation.py.
+evidence/simulation/load_simulation.sql
