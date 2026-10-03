@@ -33,11 +33,16 @@ items=[
 ('stage_sales.payment_ref_present','boolean','Reference indicator','Payment; nonblank test','Finance','B','Cash null permitted','C'),
 ('fact_inventory_snapshot.on_hand','decimal(14,3)','Snapshot stock balance','Odoo; align unit/time','Operations','B','Movement reconciliation','C'),
 ('MAC','integer KPI','Monthly purchasing members','Facts; distinct key qty>0','Commercial manager','M','Exclude anonymous','C')]
+def domain(name):
+ return next((d for d in ['customer','product','store','supplier','inventory','payment'] if d in name),'sales')
 with (D/'data-dictionary.csv').open('w',newline='') as f:
- w=csv.writer(f);w.writerow(['element','type','meaning','source_and_transformation','owner','refresh','rule','classification']);w.writerows(items)
+ w=csv.writer(f);w.writerow(['element','type','meaning','source_and_transformation','owner','refresh','rule','classification','domain','quality_state']);w.writerows([(*r,domain(r[0]),'provisional until certification') for r in items])
 rows=['| Element and type | Meaning; source and transformation | Owner; refresh; rule; class |']
-for a,b,c,d,e,f,g,h in items:rows.append(f'| {a} / {b} | {c}; {d} | {e}; {f}; {g}; {h} |')
-text=text.replace('DICTIONARY_TABLE','\n'.join(rows));p.write_text(text)
+for a,b,c,d,e,f,g,h in items:rows.append(f'| {a} / {b} | {c}; {d} | {e}; {f}; {g}; {domain(a)}/{h} |')
+if 'DICTIONARY_TABLE' in text:text=text.replace('DICTIONARY_TABLE','\n'.join(rows))
+else:
+ a=text.index('| Element and type');b=text.index('# Appendix E',a);text=text[:a]+'\n'.join(rows)+'\n\n'+text[b:]
+p.write_text(text)
 for name,heading in [('raci','Appendix A'),('compliance','Appendix B'),('validation-rules','Appendix C'),('risk-register','Appendix E'),('decision-log','Appendix G')]:
  block=text.split('# '+heading)[1].split('\n# ')[0]
  rows=[[v.strip() for v in l.strip().strip('|').split('|')] for l in block.splitlines() if l.startswith('|')]

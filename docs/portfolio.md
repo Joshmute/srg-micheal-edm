@@ -124,7 +124,7 @@ For a frequent Board query, materialise a daily category/store/currency summary.
 # B2 | Executed quality assessment
 Seed 27300 deliberately creates 900 repeated customer rows and 60 repeated product rows. The cleaning process returns 4,100 customer identities and 1,140 products. Exact source-identity repeats can be removed safely; separate IDs with similar contacts remain review candidates.
 
-Percentages below use the rules implemented in src/savanna/quality.py. Accuracy compares four customer attributes or three product attributes with generator truth after harmless formatting normalisation. Completeness is the filled share of required attributes. Validity and consistency apply the declared row-level rules; timeliness requires a parseable updated_at within ninety days of 30 June 2026. Uniqueness uses excess candidate rows for customers and repeated canonical SKUs for products. These differing denominators are retained in results.json.
+Percentages below use the rules implemented in src/savanna/quality.py. Accuracy compares four customer attributes or three product attributes with generator truth after harmless formatting normalisation. Customer completeness is the share of rows with a name and at least one contact; product completeness requires SKU, name, unit and category. Customer validity requires a valid phone and approved district; product validity requires canonical SKU syntax and unit. Consistency checks canonical phone or unit representation. Timeliness is the share of assessable, nonfuture timestamps within ninety days of 30 June 2026. Uniqueness uses excess candidate rows for customers and repeated canonical SKUs for products. These differing denominators are retained in results.json.
 
 | Dimension | Customers before | After | Products before | After |
 | Accuracy | 92.61% | 100% | 96.81% | 100% |
@@ -152,7 +152,7 @@ The 8.4% stock variance is a case estimate with no supplied denominator. Before 
 # B3 | Registry master data
 A registry is the starting style. It records which local IDs refer to an approved enterprise identity while leaving attribute ownership with source systems. It is cheaper to introduce than mandatory central creation, and stores can continue issuing provisional IDs offline. Its limitation is that a correction may take time to reach every source. A read-only consolidated customer view applies agreed survivorship for analysis; that does not authorise silent operational overwrites.
 
-Exact repeated source ID plus equivalent standardised values is an automatic technical duplicate. Across distinct source IDs, the proposed score is 40 for verified phone agreement, 25 for email, 25 for full-name agreement and 10 for district. Scores 85–100 go to priority human review; 60–84 require more evidence; below 60 remain separate. No score alone transfers loyalty value. The implementation exercises candidate scoring; review and consent propagation are design obligations, not a deployed workflow.
+Exact repeated source ID plus equivalent standardised values is an automatic technical duplicate. Across distinct source IDs, the proposed score is 40 for verified phone agreement, 25 for email, up to 25 for normalised name similarity and 10 for district. Scores 85–100 go to priority human review; 60–84 require more evidence; below 60 remain separate. No score alone transfers loyalty value. The reusable scorer uses sequence similarity for names and exact standardised contact/district comparisons; it is a heuristic, not a calibrated probability. The unit tests exercise its shared-phone safeguard; review and consent propagation are design obligations, not a deployed workflow.
 
 Use the most recent verified customer statement for a contact, an approved procurement record for a SKU, and the store register for district. Preserve previous values and provenance. A timestamp from an untrusted device does not automatically win. Marketing withdrawal takes precedence for its purpose; a new contact number is not fresh consent.
 
@@ -235,7 +235,7 @@ For Jinja, escalate and assess notification now; the previous eleven-day delay c
 
 **Expansion:** Where would a new outlet be commercially defensible? Combine comparable-store contribution, catchment, rent, distribution costs and market evidence in scenarios. The sales fixture tests the workflow but cannot establish a Kenya or Rwanda investment case.
 
-Prepare native dates using each source's contract, canonical product IDs, signed Decimal amounts and separate currencies. Upload only the approved simulation fields. The dashboard emphasises category mix and branch performance rather than assuming a smooth growth story. Dashboard evidence, native workbook and live URL are recorded in Appendix F after publication.
+Prepare native dates using each source's contract, canonical product IDs, signed Decimal amounts and separate currencies. Upload only the approved simulation fields. The dashboard emphasises category mix and branch performance rather than assuming a smooth growth story. Dashboard evidence, native workbook and live URL are recorded in Appendix F.
 
 ## Executive findings from the simulation
 **The May peak did not persist.** UGX sales fell from 313,275,600 in May to 211,676,900 in June, a 32.43% decline. January was 274,417,200. The Commercial Manager should separate order frequency, returns and basket mix before extending May's staffing or buying plan. The simulation intentionally changes monthly volume; it does not establish seasonality.
@@ -381,36 +381,36 @@ Priorities: P1 before access/launch; P2 before the month-12 audit. Applicability
 The accompanying CSV is the machine-readable dictionary. Refresh codes: B=batch daily, E=event or approved change, M=monthly. Classifications: I=Internal, C=Confidential, R=Restricted. Every entry carries its domain and provisional/certified status; a failed gate changes status to quarantined.
 
 | Element and type | Meaning; source and transformation | Owner; refresh; rule; class |
-| core.customer.customer_id / varchar(64) | Member source identity; Enrolment; trim and crosswalk | Customer service; E; Nonblank key; R |
-| core.customer.name / varchar(200) | Declared name; Customer; trim only | Customer service; E; Evidence for changes; R |
-| core.customer.phone / varchar(16) | Contact number; Customer; canonical format | Customer service; E; Valid if supplied; R |
-| core.customer.email / varchar(254) | Optional email; Customer; normalise case | Customer service; E; Syntax if supplied; R |
-| core.customer.district / varchar(100) | Member district; Customer; approved lookup | Customer service; E; Reference-list match; R |
-| core.customer.consent_marketing / boolean | Purpose-specific choice; Loyalty; withdrawal first | DPO; E; Evidence required; R |
-| core.product.product_id / varchar(64) | Canonical product; Procurement; map source SKU | Procurement; E; Unique approved key; I |
-| core.product.unit / varchar(10) | Comparable unit; Supplier; approved alias | Procurement; E; No guessed pack ratio; I |
-| core.supplier.supplier_id / varchar(64) | Supplier identifier; Register; preserve key | Procurement; E; Unique key; C |
-| dim_date.date_key / date | Kampala business date; Order; source date parser | CFO; B; Plausible date; I |
-| dim_date.month_start / date | Calendar month; Date; first day | CFO; B; Derived consistently; I |
-| dim_customer.customer_key / bigint | Analytical member key; Registry; approved lookup | Customer service; B; Resolved or null; C |
-| dim_customer.customer_token / char(64) | Pseudonymous identifier; Identity; HMAC in production | DPO; B; Secret-managed key; R |
-| dim_customer.segment / varchar(64) | Assigned segment; CRM; approved label | Commercial manager; B; Known label; C |
-| dim_product.product_key / bigint | Historical product version; History; event-time lookup | Procurement; B; Version exists; I |
-| dim_product.category / varchar(100) | Reporting category; Procurement; approved alias | Procurement; E; Reference match; I |
-| dim_product.valid_from / datetime(6) | Inclusive version start; Approved change; timestamp | IT; E; Before end; I |
-| dim_product.valid_to / datetime(6) | Exclusive version end; Change; close prior interval | IT; E; No overlap; I |
-| dim_store.store_key / bigint | Branch version key; Register; event-time lookup | Operations; B; Version exists; I |
-| dim_store.district / varchar(100) | Branch district; Register; canonical label | Operations; E; Reference match; I |
-| fact_sales.source / varchar(32) | Origin system; Manifest; retain code | IT; B; Approved contract; C |
-| fact_sales.source_order_id / varchar(64) | Order reference; Order; retain reference | Finance; B; Unique with source/line; C |
-| fact_sales.line_no / int | Line identifier; Order; positive integer | Finance; B; Unique within order; C |
-| fact_sales.quantity / decimal(14,3) | Signed retail units; Line; preserve returns | Finance; B; Declared sign convention; C |
-| core.order_line.unit_price / decimal(18,2) | Agreed unit price; Line; parse money notation | Finance; B; Nonnegative; C |
-| fact_sales.currency / char(3) | Denomination; Order; uppercase ISO code | Finance; B; UGX/KES/RWF separate; C |
-| fact_sales.net_amount / decimal(18,2) | Signed line value; Quantity × price; Decimal | Finance; B; Reconcile totals; C |
-| stage_sales.payment_ref_present / boolean | Reference indicator; Payment; nonblank test | Finance; B; Cash null permitted; C |
-| fact_inventory_snapshot.on_hand / decimal(14,3) | Snapshot stock balance; Odoo; align unit/time | Operations; B; Movement reconciliation; C |
-| MAC / integer KPI | Monthly purchasing members; Facts; distinct key qty>0 | Commercial manager; M; Exclude anonymous; C |
+| core.customer.customer_id / varchar(64) | Member source identity; Enrolment; trim and crosswalk | Customer service; E; Nonblank key; customer/R |
+| core.customer.name / varchar(200) | Declared name; Customer; trim only | Customer service; E; Evidence for changes; customer/R |
+| core.customer.phone / varchar(16) | Contact number; Customer; canonical format | Customer service; E; Valid if supplied; customer/R |
+| core.customer.email / varchar(254) | Optional email; Customer; normalise case | Customer service; E; Syntax if supplied; customer/R |
+| core.customer.district / varchar(100) | Member district; Customer; approved lookup | Customer service; E; Reference-list match; customer/R |
+| core.customer.consent_marketing / boolean | Purpose-specific choice; Loyalty; withdrawal first | DPO; E; Evidence required; customer/R |
+| core.product.product_id / varchar(64) | Canonical product; Procurement; map source SKU | Procurement; E; Unique approved key; product/I |
+| core.product.unit / varchar(10) | Comparable unit; Supplier; approved alias | Procurement; E; No guessed pack ratio; product/I |
+| core.supplier.supplier_id / varchar(64) | Supplier identifier; Register; preserve key | Procurement; E; Unique key; supplier/C |
+| dim_date.date_key / date | Kampala business date; Order; source date parser | CFO; B; Plausible date; sales/I |
+| dim_date.month_start / date | Calendar month; Date; first day | CFO; B; Derived consistently; sales/I |
+| dim_customer.customer_key / bigint | Analytical member key; Registry; approved lookup | Customer service; B; Resolved or null; customer/C |
+| dim_customer.customer_token / char(64) | Pseudonymous identifier; Identity; HMAC in production | DPO; B; Secret-managed key; customer/R |
+| dim_customer.segment / varchar(64) | Assigned segment; CRM; approved label | Commercial manager; B; Known label; customer/C |
+| dim_product.product_key / bigint | Historical product version; History; event-time lookup | Procurement; B; Version exists; product/I |
+| dim_product.category / varchar(100) | Reporting category; Procurement; approved alias | Procurement; E; Reference match; product/I |
+| dim_product.valid_from / datetime(6) | Inclusive version start; Approved change; timestamp | IT; E; Before end; product/I |
+| dim_product.valid_to / datetime(6) | Exclusive version end; Change; close prior interval | IT; E; No overlap; product/I |
+| dim_store.store_key / bigint | Branch version key; Register; event-time lookup | Operations; B; Version exists; store/I |
+| dim_store.district / varchar(100) | Branch district; Register; canonical label | Operations; E; Reference match; store/I |
+| fact_sales.source / varchar(32) | Origin system; Manifest; retain code | IT; B; Approved contract; sales/C |
+| fact_sales.source_order_id / varchar(64) | Order reference; Order; retain reference | Finance; B; Unique with source/line; sales/C |
+| fact_sales.line_no / int | Line identifier; Order; positive integer | Finance; B; Unique within order; sales/C |
+| fact_sales.quantity / decimal(14,3) | Signed retail units; Line; preserve returns | Finance; B; Declared sign convention; sales/C |
+| core.order_line.unit_price / decimal(18,2) | Agreed unit price; Line; parse money notation | Finance; B; Nonnegative; sales/C |
+| fact_sales.currency / char(3) | Denomination; Order; uppercase ISO code | Finance; B; UGX/KES/RWF separate; sales/C |
+| fact_sales.net_amount / decimal(18,2) | Signed line value; Quantity × price; Decimal | Finance; B; Reconcile totals; sales/C |
+| stage_sales.payment_ref_present / boolean | Reference indicator; Payment; nonblank test | Finance; B; Cash null permitted; payment/C |
+| fact_inventory_snapshot.on_hand / decimal(14,3) | Snapshot stock balance; Odoo; align unit/time | Operations; B; Movement reconciliation; inventory/C |
+| MAC / integer KPI | Monthly purchasing members; Facts; distinct key qty>0 | Commercial manager; M; Exclude anonymous; sales/C |
 
 # Appendix E | Risk register
 Likelihood and impact use a five-point scale; residual values are targets after controls, not measured certification.
@@ -430,7 +430,23 @@ Likelihood and impact use a five-point scale; residual values are targets after 
 | Cost/support overrun | 4×4=16 | Phased quotations and handover gate; CFO | 2×4=8 |
 
 # Appendix F | Dashboard evidence
-Dashboard publication and verification in progress.
+**Published view:** https://public.tableau.com/app/profile/joshua.mutesasira/viz/MichealUGXSalesDashboard/Dashboard1 . The native workbook is dashboard/Micheal UGX Sales Dashboard.twbx and its extract source is dashboard/micheal_ugx_dashboard.csv. All figures are UGX simulation values for January-June 2026, not SRG observations.
+
+![Published dashboard, default view](dashboard/screenshots/01_published_default.jpg)
+
+**Default view:** 58,500 orders, UGX 1,502.0M net sales, 4,100 active buyers and 0.80% unmatched payment value. These headline values agree with the prepared CSV. A line compares channels over time, bars compare monthly buyers, stores and segments, and channel, month and district filters apply to every sheet.
+
+![Jinja selected in Top 10 Stores](dashboard/screenshots/02_filtered_by_district_jinja.jpg)
+
+**Selection action:** selecting Jinja in Top 10 Stores filters the other sheets to those five Jinja branches: UGX 334M, 12,933 orders and 3,814 active buyers. It is a store selection, not the full district total of UGX 398.5M.
+
+![Anonymous segment selected](dashboard/screenshots/03_filtered_by_segment_anonymous.jpg)
+
+**Segment action:** anonymous sales total UGX 40.0M across 1,581 orders, with zero active buyers. This confirms that untracked purchases contribute sales but are excluded from the member measure.
+
+![Store hierarchy collapsed to district](dashboard/screenshots/04_drill_up_district_level.jpg)
+
+**Hierarchy drill-up:** the district-store hierarchy collapses to district level while the headline KPIs remain unchanged. The bars total only the ten listed stores, so Gulu does not appear; district totals should be read from the district filter instead.
 
 # Appendix G | Decisions and assumptions
 | Decision | Reason and alternative | Revisit when |

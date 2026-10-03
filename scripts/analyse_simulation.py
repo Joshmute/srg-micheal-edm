@@ -63,6 +63,7 @@ for r in validated:
   missing[currency]['count']+=1;missing[currency]['value']+=net
  board.append({'Month':month+'-01','Order Date':r['order_date'],'District':store['district'],'Store':store['name'],'Store ID':r['store_id'],'Category':product['category'],'Product':product['name'],'Channel':source,'Currency':currency,'Net Sales':str(net),'Net Units':r['quantity'],'Order ID':r['order_id'],'Customer ID':customer or '', 'Active Buyer':customer if positive and customer else '', 'Segment':crm[customer]['segment'] if customer else 'Anonymous','Unmatched Payment Value':str(net) if source!='pos' and not r['payment_ref_present'] else '0','Simulation':'SYNTHETIC - not actual SRG observations'})
 write_csv(Path('dashboard/micheal_simulated_sales.csv'),board)
+write_csv(Path('dashboard/micheal_ugx_dashboard.csv'),[r for r in board if r['Currency']=='UGX'])
 monthrows=[{'month':mo,'currency':cu,'net_sales':str(v['net']),'active_customers':len(v['buyers']),'rows':v['rows']} for (mo,cu),v in sorted(monthly.items())];write_csv(O/'monthly_kpis.csv',monthrows)
 # Cohort metric requires a full 90-day lookback; use fixed date, never current runtime date.
 purchase_dates=defaultdict(list)

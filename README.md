@@ -17,7 +17,7 @@ MySQL 8.4 coursework with an independently generated January–June 2026 retail 
 | B4 ETL and history | `src/savanna/etl.py`, SQL 02, 03 and 07; simulation evidence |
 | C1 metadata | `docs/data-dictionary.csv`; lineage diagram |
 | C2 access and privacy | SQL 04; `evidence/mysql-tests.txt`; report DPIA and incident plan |
-| C3 analytics | `dashboard/`; report questions, findings and technology assessment |
+| C3 analytics | `dashboard/` (native `.twbx`, extract CSV, screenshots, published URL); report questions, findings and Appendix F |
 | D1–D2 delivery and reflection | Report D1–D2; `docs/decision-log.csv` |
 
 ## Reproduce the analysis
@@ -41,6 +41,6 @@ Seed **27300** creates 5,000 customer rows (4,100 identities), 1,200 product row
 
 Install `requirements-docs.txt`, run `python3 scripts/build_diagrams.py`, then `python3 scripts/build_portfolio.py`. The PDF renderer uses the supplied cover PDF, Times New Roman from macOS supplemental fonts and Calibri from the installed Word font directory. Body text is 12pt with 20.7pt leading and one-inch margins, matching the assignment reference. The original cloud Word file is unchanged.
 
-The report proposes central reporting, registry MDM, a two-store pilot and a UGX 444M programme. Proposed controls are distinguished from executed fixture checks. The dashboard contains only synthetic data.
+The report proposes central reporting, registry MDM, a two-store pilot and a UGX 444M programme. Proposed controls are distinguished from executed fixture checks. The dashboard contains only synthetic data. Published view: https://public.tableau.com/app/profile/joshua.mutesasira/viz/MichealUGXSalesDashboard/Dashboard1
 
 AI assistance: OpenAI Codex assisted with drafting, code, diagrams and testing. Shared validation/MySQL utilities were reused from the companion portfolio and are acknowledged in the report; this dataset, written analysis and diagrams are separately developed.

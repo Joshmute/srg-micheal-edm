@@ -27,6 +27,9 @@ def graph(name,title,nodes,edges,w=1100,h=730,er=False):
         if False:
             x1,y1=na[2],ay;x2,y2=nb[2],by
             route=[(x1,y1),(na[2]-45,y1),(na[2]-45,y2),(x2,y2)]
+        elif name=='etl' and (a,b)==('e','f'):
+            x1,y1=ax,na[3]+na[5];x2,y2=bx,nb[3]+nb[5]
+            route=[(x1,y1),(x1,565),(x2,565),(x2,y2)]
         elif name=='etl' and (a,b)==('c','q'):
             x1,y1=na[2]+na[4],ay;x2,y2=nb[2]+nb[4],by
             route=[(x1,y1),(1090,y1),(1090,y2),(x2,y2)]
@@ -47,7 +50,7 @@ def graph(name,title,nodes,edges,w=1100,h=730,er=False):
             if route: marker(x1,y1,route[1][0]-x1,route[1][1]-y1,start);marker(x2,y2,route[-2][0]-x2,route[-2][1]-y2,end)
             else: marker(x1,y1,dx,dy,start);marker(x2,y2,-dx,-dy,end)
         else:
-            marker(x2,y2,-dx,-dy,'')
+            marker(x2,y2,route[-2][0]-x2,route[-2][1]-y2,'') if route else marker(x2,y2,-dx,-dy,'')
             if name=='mdm-flows': marker(x1,y1,dx,dy,'')
         if label:
             tx=(x1+x2)/2;ty=(y1+y2)/2-8
@@ -85,7 +88,7 @@ graph('etl','Batch certification and controlled replay',[
 graph('mdm-flows','Registry maps identities without taking over source creation',[
 ('p','POS\nOffline source ID\nVerified correction request',30,90,300,150),('w','E-commerce\nCheckout identity\nContact confirmation',770,90,300,150),('r','Enterprise registry\nSource crosswalk / evidence\nHuman review / version\nConsolidated read view',380,345,340,175),('l','Loyalty\nAccount claims\nAuditable points ledger',30,640,300,145),('c','CRM\nApproved permission view\nWithdrawal applied first',770,640,300,145)],[('p','r','IDs / acknowledgements'),('w','r','claims / mappings'),('r','l','reviewed links'),('r','c','approved view')],h=830)
 graph('streaming','Event topics remain separate',[
-('a','Store edge\nPersist and sequence\nFootfall without person IDs',30,90,300,150),('b','Broker\nAt-least-once delivery\nRetry and dead-letter',400,90,300,150),('c','Consumers\nDeduplication\nEvent-time windows',770,90,300,150),('d','Traffic\n5-minute counts\nLate-correction counter',30,400,300,150),('e','Stock movements\nSales / receipts / transfers\nFreshness and reconciliation',400,400,300,150),('f','Payment events\nProvider references\nHuman investigation',770,400,300,150)],[('a','b','durable send'),('b','c','consume'),('c','d','footfall topic'),('c','e','stock topic'),('c','f','payment topic')],h=610)
+('a','Edge and provider feeds\nFootfall / stock movements\nAuthenticated payments\nPersist and sequence',30,90,300,150),('b','Broker\nAt-least-once delivery\nRetry and dead-letter',400,90,300,150),('c','Consumers\nDeduplication\nEvent-time windows',770,90,300,150),('d','Traffic\n5-minute counts\nLate-correction counter',30,400,300,150),('e','Stock movements\nSales / receipts / transfers\nFreshness and reconciliation',400,400,300,150),('f','Payment events\nProvider references\nHuman investigation',770,400,300,150)],[('a','b','durable send'),('b','c','consume'),('c','d','footfall topic'),('c','e','stock topic'),('c','f','payment topic')],h=610)
 graph('lineage','Active member measure and its exclusions',[
 ('a','Source lines\nCustomer ID / event date\nSigned quantity',30,95,300,145),('b','Source contract\nKampala calendar date\nKeep refunds negative',400,95,300,145),('c','Registry crosswalk\nApproved member key\nUnresolved counted apart',770,95,300,145),('d','Certified fact\nReconcile source totals\nReject conflicting replays',770,390,300,145),('e','Monthly distinct count\nPositive purchase required\nAnonymous excluded',400,390,300,145),('f','Report context\nPeriod and channel\nNever add monthly distincts',30,390,300,145)],[('a','b','parse'),('b','c','link'),('c','d','load'),('d','e','aggregate'),('e','f','present')],h=590)
 # Conventional fishbone with reordered branches and distinct hypotheses.
